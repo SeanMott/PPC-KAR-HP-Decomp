@@ -26,7 +26,7 @@ BaseNA
 
 ## Symbol Maps
 
-There have been a *lot* of symbol maps for KAR over the years. This repo grabs all of them and brings them togeather in one place. The goal is to port theses synbols into the BASE_NA and Hack Pack decomp. Theses will be a somewhat tedious but PPC will update the symbol data.
+There have been a *lot* of symbol maps for KAR over the years. This repo grabs all of them and brings them togeather in one place. The goal is to port theses synbols into the BaseNA and Hack Pack decomp. Theses will be a somewhat tedious but PPC will update the symbol data.
 
 Most are in the repo but some have a Git URL
 [Tenacious](https://github.com/Teltt/KARMAP/tree/main)
@@ -38,7 +38,7 @@ Link to the asset and Star spreadsheets
 
 ## Credits
 
-The Hack Pack and symbol data was gathered by many dedicated people. Some still around, some left. Regardless they're work is importaint
+The symbol data was gathered by many dedicated people. Some still around, some left. Regardless they're work is importaint, be it directly adding symbols, working on the Hack Pack, or making mods and furthuring our understanding the of the game.
 
 ### Symbol Data, Gekko Code, and KAR Mod Contributions
 - Yakumono
@@ -63,4 +63,4 @@ PPC and this decomp wouldn't exist without the work by [Encounter](https://githu
 
 I merely built ontop of the countless hours and months-years they spent to decomp projects and understanding the consoles.
 
-Special thanks to Jinxy for helping get PPPC and PPC as far as it has with their technical knowledge. :3 - Jas
+Special thanks to Jinxy for helping get PPCC and PPC as far as it has with their technical knowledge. :3 - Jas
