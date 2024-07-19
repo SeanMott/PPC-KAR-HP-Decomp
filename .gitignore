@@ -10,3 +10,4 @@ objdiff.json
 orig/*/*
 !orig/*/.gitkeep
 ctx.c
+/BaseNA-Raw/.vs
