@@ -6,11 +6,11 @@
 .balign4
 
 #  .text:0x0 | 0x80383978 | size: 0x4
-.fn fn_80383978 ,  global
-/* 80383978 00380778  4E 80 00 20 */*/ blr 
+.fn fn_80383978,  global
+/* 80383978 00380778  4E 80 00 20 */ blr 
 .endfn fn_80383978
 
 #  0x80489444..0x80489448 | size: 0x4
-.section .ctors  ,  "a" 
+.section .ctors ,  "a" 
 .balign4
-.4byte fn_80383978
+		.4byte fn_80383978

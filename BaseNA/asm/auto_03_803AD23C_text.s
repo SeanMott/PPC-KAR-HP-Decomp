@@ -6,8 +6,8 @@
 .balign4
 
 #  .text:0x0 | 0x803AD23C | size: 0xC
-.fn fn_803AD23C ,  global
-/* 803AD23C 003AA03C  3C 60 80 49 */*/ lis r3 , LBL_BYTE4_79 @ ha
-/* 803AD240 003AA040  38 63 B5 A8 */*/ addi r3 , r3 , LBL_BYTE4_79 @ l
-/* 803AD244 003AA044  4E 80 00 20 */*/ blr 
+.fn fn_803AD23C,  global
+/* 803AD23C 003AA03C  3C 60 80 49 */ lis r3, LBL_BYTE4_79@ha
+/* 803AD240 003AA040  38 63 B5 A8 */ addi r3, r3, LBL_BYTE4_79@l
+/* 803AD244 003AA044  4E 80 00 20 */ blr 
 .endfn fn_803AD23C
