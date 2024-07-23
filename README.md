@@ -41,7 +41,16 @@ BaseNA
 
 ## HP Patch Decoded
 
-This contains the XDelta Patch and decoded version of the Patch for the Hack Pack 1.0.1
+This contains the decoded version of the XDelta Hack Pack 1.0.1 Patch.
+
+```
+HP-Patch-Decoded
+    -decode.txt || contains the settings and ASM patch code from the XDelta 101 Patch.
+```
+
+## Ghidra HP Output
+
+This contains the C outputed by a Ghidra project for the Hack Pack and Base NA ROM. It also contains the diffed header funcs unique to the Hack Pack.
 
 ```
 HP-Patch-Decoded
