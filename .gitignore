@@ -11,3 +11,4 @@ orig/*/*
 !orig/*/.gitkeep
 ctx.c
 /BaseNA-Raw/.vs
+/BaseNA-Raw/asm/.vs
