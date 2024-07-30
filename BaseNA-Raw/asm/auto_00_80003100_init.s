@@ -141,10 +141,6 @@
 .endfn fn_80003268
 # .init:0x18C | 0x8000328C | size: 0x0
 .sym gTRKInterruptVectorTable, global
-
-# .init:0x18C | 0x8000328C | size: 0x1F34
-.fn gap_00_8000328C_init, global
-.hidden gap_00_8000328C_init
 /* 8000328C 0000028C  4D 65 74 72 */	.4byte 0x4D657472 /* invalid */
 /* 80003290 00000290  6F 77 65 72 */	xoris r23, r27, 0x6572
 /* 80003294 00000294  6B 73 20 54 */	xori r19, r27, 0x2054
@@ -2147,7 +2143,6 @@
 /* 800051B4 000021B4  7C 7A 03 A6 */	mtsrr0 r3
 /* 800051B8 000021B8  38 60 1F 00 */	li r3, 0x1f00
 /* 800051BC 000021BC  4C 00 00 64 */	rfi
-.endfn gap_00_8000328C_init
 
 # .init:0x20C0 | 0x800051C0 | size: 0x2C
 .fn fn_800051C0, global

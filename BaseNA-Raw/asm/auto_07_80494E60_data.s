@@ -1263,10 +1263,6 @@
 	.4byte fn_80011024+0x1CE4
 	.4byte fn_80011024+0x1E10
 .endobj jumptable_80496124
-
-# .data:0x12E0 | 0x80496140 | size: 0x38
-.obj gap_07_80496140_data, global
-.hidden gap_07_80496140_data
 	.4byte 0x52616365
 	.4byte 0x20557365
 	.4byte 0x72204461
@@ -1281,7 +1277,6 @@
 	.4byte 0x67726370
 	.4byte 0x203D3D20
 	.4byte 0x67700000
-.endobj gap_07_80496140_data
 
 # .data:0x1318 | 0x80496178 | size: 0x10
 .obj lbl_80496178, global
@@ -1383,12 +1378,7 @@
 	.4byte fn_80015BE8+0x1A8
 	.4byte fn_80015BE8+0x1A8
 .endobj jumptable_8049625C
-
-# .data:0x144C | 0x804962AC | size: 0x4
-.obj gap_07_804962AC_data, global
-.hidden gap_07_804962AC_data
 	.4byte 0x00000000
-.endobj gap_07_804962AC_data
 
 # .data:0x1450 | 0x804962B0 | size: 0x10
 .obj lbl_804962B0, global
@@ -1598,12 +1588,7 @@
 	.4byte fn_80017050+0x36C
 	.4byte fn_80017050+0x374
 .endobj jumptable_80496598
-
-# .data:0x1754 | 0x804965B4 | size: 0x4
-.obj gap_07_804965B4_data, global
-.hidden gap_07_804965B4_data
 	.4byte 0x00000000
-.endobj gap_07_804965B4_data
 
 # .data:0x1758 | 0x804965B8 | size: 0xC
 .obj lbl_804965B8, global
@@ -2138,12 +2123,7 @@
 	.4byte fn_8001EAAC+0x200
 	.4byte fn_8001EAAC+0x200
 .endobj jumptable_80496C44
-
-# .data:0x1E2C | 0x80496C8C | size: 0x4
-.obj gap_07_80496C8C_data, global
-.hidden gap_07_80496C8C_data
 	.4byte 0x00000000
-.endobj gap_07_80496C8C_data
 
 # .data:0x1E30 | 0x80496C90 | size: 0x14
 .obj lbl_80496C90, global
@@ -2267,12 +2247,7 @@
 	.4byte fn_8001FBD8+0x1A0
 	.4byte fn_8001FBD8+0x1C0
 .endobj jumptable_80496DD0
-
-# .data:0x1FAC | 0x80496E0C | size: 0x4
-.obj gap_07_80496E0C_data, global
-.hidden gap_07_80496E0C_data
 	.4byte 0x00000000
-.endobj gap_07_80496E0C_data
 
 # .data:0x1FB0 | 0x80496E10 | size: 0x50
 .obj jumptable_80496E10, global
@@ -2330,12 +2305,7 @@
 	.4byte fn_8003EED8+0x69C
 	.4byte fn_8003EED8+0x75C
 .endobj jumptable_80496E98
-
-# .data:0x205C | 0x80496EBC | size: 0x4
-.obj gap_07_80496EBC_data, global
-.hidden gap_07_80496EBC_data
 	.4byte 0x00000000
-.endobj gap_07_80496EBC_data
 
 # .data:0x2060 | 0x80496EC0 | size: 0x30
 .obj jumptable_80496EC0, global
@@ -2643,12 +2613,7 @@
 	.4byte fn_800488EC+0xDC
 	.4byte fn_800488EC+0x50
 .endobj jumptable_80497290
-
-# .data:0x2474 | 0x804972D4 | size: 0x4
-.obj gap_07_804972D4_data, global
-.hidden gap_07_804972D4_data
 	.4byte 0x00000000
-.endobj gap_07_804972D4_data
 
 # .data:0x2478 | 0x804972D8 | size: 0x18
 .obj lbl_804972D8, global
@@ -3404,12 +3369,7 @@
 	.4byte fn_80051028+0x798
 	.4byte fn_80051028+0x7A0
 .endobj jumptable_80497C60
-
-# .data:0x2E34 | 0x80497C94 | size: 0x4
-.obj gap_07_80497C94_data, global
-.hidden gap_07_80497C94_data
 	.4byte 0x00000000
-.endobj gap_07_80497C94_data
 
 # .data:0x2E38 | 0x80497C98 | size: 0x10
 .obj lbl_80497C98, global
@@ -8854,8 +8814,8 @@
 	.4byte fn_800869CC+0x310
 .endobj jumptable_8049BEA8
 
-# .data:0x706C | 0x8049BECC | size: 0x4C
-.obj lbl_8049BECC, global
+# .data:0x706C | 0x8049BECC | size: 0x24
+.obj jumptable_8049BECC, global
 	.4byte fn_800869CC+0x8C
 	.4byte fn_800869CC+0x98
 	.4byte fn_800869CC+0xA4
@@ -8865,6 +8825,7 @@
 	.4byte fn_800869CC+0xD8
 	.4byte fn_800869CC+0xE8
 	.4byte fn_800869CC+0xF4
+.endobj jumptable_8049BECC
 	.4byte 0x2A2A2A2A
 	.4byte 0x20436F6C
 	.4byte 0x646E2774
@@ -8875,7 +8836,6 @@
 	.4byte 0x44617461
 	.4byte 0x28256429
 	.4byte 0x21210A00
-.endobj lbl_8049BECC
 
 # .data:0x70B8 | 0x8049BF18 | size: 0x3C
 .obj lbl_8049BF18, global
@@ -8913,12 +8873,7 @@
 	.4byte fn_80088408+0xB4
 	.4byte fn_80088408+0xCC
 .endobj jumptable_8049BF78
-
-# .data:0x713C | 0x8049BF9C | size: 0x4
-.obj gap_07_8049BF9C_data, global
-.hidden gap_07_8049BF9C_data
 	.4byte 0x00000000
-.endobj gap_07_8049BF9C_data
 
 # .data:0x7140 | 0x8049BFA0 | size: 0x10
 .obj lbl_8049BFA0, global
@@ -10669,10 +10624,6 @@
 	.4byte fn_80090A54+0x448
 	.4byte fn_80090A54+0x478
 .endobj jumptable_8049D82C
-
-# .data:0x8A08 | 0x8049D868 | size: 0xFC
-.obj gap_07_8049D868_data, global
-.hidden gap_07_8049D868_data
 	.4byte 0x6E6F2E25
 	.4byte 0x64206973
 	.4byte 0x20656469
@@ -10736,7 +10687,6 @@
 	.4byte 0x636F6E76
 	.4byte 0x65727465
 	.4byte 0x64000000
-.endobj gap_07_8049D868_data
 
 # .data:0x8B04 | 0x8049D964 | size: 0x3C
 .obj jumptable_8049D964, global
@@ -10756,10 +10706,6 @@
 	.4byte fn_80091A0C+0x314
 	.4byte fn_80091A0C+0x36C
 .endobj jumptable_8049D964
-
-# .data:0x8B40 | 0x8049D9A0 | size: 0x210
-.obj gap_07_8049D9A0_data, global
-.hidden gap_07_8049D9A0_data
 	.4byte 0x63616D65
 	.4byte 0x72612028
 	.4byte 0x25642920
@@ -10892,7 +10838,6 @@
 	.4byte 0x61796461
 	.4byte 0x74615F63
 	.4byte 0x2E680000
-.endobj gap_07_8049D9A0_data
 
 # .data:0x8D50 | 0x8049DBB0 | size: 0x48
 .obj lbl_8049DBB0, global
@@ -11164,10 +11109,6 @@
 	.4byte fn_80095F10+0x800
 	.4byte fn_80095F10+0x818
 .endobj jumptable_8049DE6C
-
-# .data:0x9034 | 0x8049DE94 | size: 0x54
-.obj gap_07_8049DE94_data, global
-.hidden gap_07_8049DE94_data
 	.4byte 0x616C6C20
 	.4byte 0x64697370
 	.4byte 0x206F6666
@@ -11189,7 +11130,6 @@
 	.4byte 0x20612564
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj gap_07_8049DE94_data
 
 # .data:0x9088 | 0x8049DEE8 | size: 0x2C
 .obj lbl_8049DEE8, global
@@ -11867,10 +11807,6 @@
 	.4byte fn_800A0A0C+0x1AC
 	.4byte fn_800A0A0C+0x1D0
 .endobj jumptable_8049E73C
-
-# .data:0x9908 | 0x8049E768 | size: 0x124
-.obj gap_07_8049E768_data, global
-.hidden gap_07_8049E768_data
 	.4byte 0x64626D61
 	.4byte 0x7073706C
 	.4byte 0x696E652E
@@ -11944,7 +11880,6 @@
 	.4byte 0x64617461
 	.4byte 0x2D3E6E75
 	.4byte 0x6D000000
-.endobj gap_07_8049E768_data
 
 # .data:0x9A2C | 0x8049E88C | size: 0x2C
 .obj jumptable_8049E88C, global
@@ -11960,10 +11895,6 @@
 	.4byte fn_800A16A8+0x424
 	.4byte fn_800A16A8+0x4AC
 .endobj jumptable_8049E88C
-
-# .data:0x9A58 | 0x8049E8B8 | size: 0x88
-.obj gap_07_8049E8B8_data, global
-.hidden gap_07_8049E8B8_data
 	.4byte 0x72616E67
 	.4byte 0x652D3E64
 	.4byte 0x61746100
@@ -11998,7 +11929,6 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj gap_07_8049E8B8_data
 
 # .data:0x9AE0 | 0x8049E940 | size: 0x60
 .obj lbl_8049E940, global
@@ -16592,10 +16522,6 @@
 	.4byte fn_800B0CDC+0xA38
 	.4byte fn_800B0CDC+0xCC4
 .endobj jumptable_804A2038
-
-# .data:0xD1F8 | 0x804A2058 | size: 0x24
-.obj gap_07_804A2058_data, global
-.hidden gap_07_804A2058_data
 	.4byte 0x25733A25
 	.4byte 0x643A2057
 	.4byte 0x61726E69
@@ -16605,7 +16531,6 @@
 	.4byte 0x65632069
 	.4byte 0x7320300A
 	.4byte 0x00000000
-.endobj gap_07_804A2058_data
 
 # .data:0xD21C | 0x804A207C | size: 0x58
 .obj lbl_804A207C, global
@@ -20646,10 +20571,6 @@
 	.4byte fn_800EBE44+0x80
 	.4byte fn_800EBE44+0x7C
 .endobj jumptable_804A5290
-
-# .data:0x10464 | 0x804A52C4 | size: 0x20
-.obj gap_07_804A52C4_data, global
-.hidden gap_07_804A52C4_data
 	.4byte 0x2A2A2A2A
 	.4byte 0x20497465
 	.4byte 0x6D204C6F
@@ -20658,7 +20579,6 @@
 	.4byte 0x4E6F7420
 	.4byte 0x466F756E
 	.4byte 0x64210A00
-.endobj gap_07_804A52C4_data
 
 # .data:0x10484 | 0x804A52E4 | size: 0x20
 .obj lbl_804A52E4, global
@@ -20737,10 +20657,6 @@
 	.4byte fn_800ED520+0x6C
 	.4byte fn_800ED520+0x74
 .endobj jumptable_804A538C
-
-# .data:0x1058C | 0x804A53EC | size: 0x24
-.obj gap_07_804A53EC_data, global
-.hidden gap_07_804A53EC_data
 	.4byte 0x25642825
 	.4byte 0x64293A20
 	.4byte 0x25640A00
@@ -20750,7 +20666,6 @@
 	.4byte 0x65202564
 	.4byte 0x203A2025
 	.4byte 0x640A0000
-.endobj gap_07_804A53EC_data
 
 # .data:0x105B0 | 0x804A5410 | size: 0x140
 .obj lbl_804A5410, global
@@ -24425,10 +24340,6 @@
 	.4byte fn_80119518+0x6C
 	.4byte fn_80119518+0x74
 .endobj jumptable_804A7F10
-
-# .data:0x130E0 | 0x804A7F40 | size: 0x160
-.obj gap_07_804A7F40_data, global
-.hidden gap_07_804A7F40_data
 	.4byte 0x5363496E
 	.4byte 0x66416269
 	.4byte 0x6C697479
@@ -24517,7 +24428,6 @@
 	.4byte 0x655F6D6F
 	.4byte 0x64656C73
 	.4byte 0x00000000
-.endobj gap_07_804A7F40_data
 
 # .data:0x13240 | 0x804A80A0 | size: 0x30
 .obj jumptable_804A80A0, global
@@ -29882,12 +29792,7 @@
 	.4byte fn_80162710+0x68
 	.4byte fn_80162710+0x78
 .endobj jumptable_804AC538
-
-# .data:0x1773C | 0x804AC59C | size: 0x4
-.obj gap_07_804AC59C_data, global
-.hidden gap_07_804AC59C_data
 	.4byte 0x00000000
-.endobj gap_07_804AC59C_data
 
 # .data:0x17740 | 0x804AC5A0 | size: 0x28
 .obj lbl_804AC5A0, global
@@ -31070,10 +30975,6 @@
 	.4byte fn_8017F3BC+0x1870
 	.4byte fn_8017F3BC+0x21CC
 .endobj jumptable_804AD32C
-
-# .data:0x184F8 | 0x804AD358 | size: 0x2E8
-.obj gap_07_804AD358_data, global
-.hidden gap_07_804AD358_data
 	.4byte 0x53634D65
 	.4byte 0x6E436C65
 	.4byte 0x61726368
@@ -31260,7 +31161,6 @@
 	.4byte 0x65204572
 	.4byte 0x726F7220
 	.4byte 0x25640A00
-.endobj gap_07_804AD358_data
 
 # .data:0x187E0 | 0x804AD640 | size: 0x14
 .obj lbl_804AD640, global
@@ -32048,12 +31948,7 @@
 	.4byte fn_80194AC0+0x5C
 	.4byte fn_80194AC0+0x38
 .endobj jumptable_804ADFC4
-
-# .data:0x19184 | 0x804ADFE4 | size: 0x4
-.obj gap_07_804ADFE4_data, global
-.hidden gap_07_804ADFE4_data
 	.4byte 0x00000000
-.endobj gap_07_804ADFE4_data
 
 # .data:0x19188 | 0x804ADFE8 | size: 0x34
 .obj lbl_804ADFE8, global
@@ -32137,12 +32032,7 @@
 	.4byte fn_8019655C+0xA8
 	.4byte fn_8019655C+0xDC
 .endobj jumptable_804AE0C8
-
-# .data:0x19284 | 0x804AE0E4 | size: 0x4
-.obj gap_07_804AE0E4_data, global
-.hidden gap_07_804AE0E4_data
 	.4byte 0x00000000
-.endobj gap_07_804AE0E4_data
 
 # .data:0x19288 | 0x804AE0E8 | size: 0x78
 .obj lbl_804AE0E8, global
@@ -32356,12 +32246,7 @@
 	.4byte fn_801A0914+0x104
 	.4byte fn_801A0914+0xC4
 .endobj jumptable_804AE38C
-
-# .data:0x1954C | 0x804AE3AC | size: 0x4
-.obj gap_07_804AE3AC_data, global
-.hidden gap_07_804AE3AC_data
 	.4byte 0x00000000
-.endobj gap_07_804AE3AC_data
 
 # .data:0x19550 | 0x804AE3B0 | size: 0x10
 .obj lbl_804AE3B0, global
@@ -33573,12 +33458,7 @@
 	.4byte fn_801A6640+0x74
 	.4byte fn_801A6640+0x7C
 .endobj jumptable_804AF5E0
-
-# .data:0x1A7AC | 0x804AF60C | size: 0x4
-.obj gap_07_804AF60C_data, global
-.hidden gap_07_804AF60C_data
 	.4byte 0x00000000
-.endobj gap_07_804AF60C_data
 
 # .data:0x1A7B0 | 0x804AF610 | size: 0x20
 .obj lbl_804AF610, global
@@ -33734,12 +33614,7 @@
 	.4byte fn_801B975C+0x124
 	.4byte fn_801B975C+0x100
 .endobj jumptable_804AF7B0
-
-# .data:0x1A96C | 0x804AF7CC | size: 0x4
-.obj gap_07_804AF7CC_data, global
-.hidden gap_07_804AF7CC_data
 	.4byte 0x00000000
-.endobj gap_07_804AF7CC_data
 
 # .data:0x1A970 | 0x804AF7D0 | size: 0x24
 .obj lbl_804AF7D0, global
@@ -35232,12 +35107,7 @@
 	.4byte fn_801D7308+0xB0
 	.4byte fn_801D7308+0xE4
 .endobj jumptable_804B0D30
-
-# .data:0x1BEEC | 0x804B0D4C | size: 0x4
-.obj gap_07_804B0D4C_data, global
-.hidden gap_07_804B0D4C_data
 	.4byte 0x00000000
-.endobj gap_07_804B0D4C_data
 
 # .data:0x1BEF0 | 0x804B0D50 | size: 0x28
 .obj lbl_804B0D50, global
@@ -35283,12 +35153,7 @@
 	.4byte fn_801DB34C+0x51C
 	.4byte fn_801DB34C+0x564
 .endobj jumptable_804B0D78
-
-# .data:0x1BF84 | 0x804B0DE4 | size: 0x4
-.obj gap_07_804B0DE4_data, global
-.hidden gap_07_804B0DE4_data
 	.4byte 0x00000000
-.endobj gap_07_804B0DE4_data
 
 # .data:0x1BF88 | 0x804B0DE8 | size: 0x28
 .obj lbl_804B0DE8, global
@@ -44210,12 +44075,7 @@
 	.4byte fn_802716E8+0x84
 	.4byte fn_802716E8+0x8C
 .endobj jumptable_804B7A28
-
-# .data:0x22BF4 | 0x804B7A54 | size: 0x4
-.obj gap_07_804B7A54_data, global
-.hidden gap_07_804B7A54_data
 	.4byte 0x00000000
-.endobj gap_07_804B7A54_data
 
 # .data:0x22BF8 | 0x804B7A58 | size: 0xC0
 .obj lbl_804B7A58, global
@@ -48082,10 +47942,6 @@
 	.4byte fn_80281560+0x9C
 	.4byte fn_80281560+0xA4
 .endobj jumptable_804BB1AC
-
-# .data:0x26390 | 0x804BB1F0 | size: 0x2E0
-.obj gap_07_804BB1F0_data, global
-.hidden gap_07_804BB1F0_data
 	.4byte 0x456E6469
 	.4byte 0x6E674374
 	.4byte 0x416C6C2E
@@ -48270,7 +48126,6 @@
 	.4byte 0x6A6F696E
 	.4byte 0x74000000
 	.4byte 0x00000000
-.endobj gap_07_804BB1F0_data
 
 # .data:0x26670 | 0x804BB4D0 | size: 0x5C
 .obj lbl_804BB4D0, global
@@ -65799,10 +65654,6 @@
 	.4byte fn_802B88F4+0x10E4
 	.4byte fn_802B88F4+0x1238
 .endobj jumptable_804C8020
-
-# .data:0x331DC | 0x804C803C | size: 0x20
-.obj gap_07_804C803C_data, global
-.hidden gap_07_804C803C_data
 	.4byte 0x47616D65
 	.4byte 0x53657373
 	.4byte 0x696F6E3A
@@ -65811,7 +65662,6 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj gap_07_804C803C_data
 
 # .data:0x331FC | 0x804C805C | size: 0x9C
 .obj lbl_804C805C, global
@@ -100332,10 +100182,6 @@
 	.4byte fn_8032C798+0x11A0
 	.4byte fn_8032C798+0xBAC
 .endobj jumptable_804E4630
-
-# .data:0x4F874 | 0x804E46D4 | size: 0x64
-.obj gap_07_804E46D4_data, global
-.hidden gap_07_804E46D4_data
 	.4byte 0x5054434C
 	.4byte 0x5F4B555A
 	.4byte 0x59554B41
@@ -100361,7 +100207,6 @@
 	.4byte 0x59554B41
 	.4byte 0x5F594F5F
 	.4byte 0x45000000
-.endobj gap_07_804E46D4_data
 
 # .data:0x4F8D8 | 0x804E4738 | size: 0xA0
 .obj lbl_804E4738, global
@@ -108511,10 +108356,6 @@
 	.4byte fn_8034D204+0x160
 	.4byte fn_8034D204+0x170
 .endobj jumptable_804EADB0
-
-# .data:0x55FA8 | 0x804EAE08 | size: 0xAA8
-.obj gap_07_804EAE08_data, global
-.hidden gap_07_804EAE08_data
 	.4byte 0x2F2F2F20
 	.4byte 0x94AD90B6
 	.4byte 0x8A6D97A6
@@ -109197,7 +109038,6 @@
 	.4byte 0x926590AB
 	.4byte 0x8C579094
 	.4byte 0x00000000
-.endobj gap_07_804EAE08_data
 
 # .data:0x56A50 | 0x804EB8B0 | size: 0xC
 .obj lbl_804EB8B0, global
@@ -118612,12 +118452,7 @@
 	.4byte fn_8037C4A8+0xD8
 	.4byte fn_8037C4A8+0xB4
 .endobj jumptable_804F31B4
-
-# .data:0x5E384 | 0x804F31E4 | size: 0x4
-.obj gap_07_804F31E4_data, global
-.hidden gap_07_804F31E4_data
 	.4byte 0x00000000
-.endobj gap_07_804F31E4_data
 
 # .data:0x5E388 | 0x804F31E8 | size: 0x10
 .obj lbl_804F31E8, global
@@ -126295,12 +126130,7 @@
 	.4byte fn_803B1C74+0x12E4
 	.4byte fn_803B1C74+0x13E0
 .endobj jumptable_804F89C8
-
-# .data:0x63C8C | 0x804F8AEC | size: 0x4
-.obj gap_07_804F8AEC_data, global
-.hidden gap_07_804F8AEC_data
 	.4byte 0x00000000
-.endobj gap_07_804F8AEC_data
 
 # .data:0x63C90 | 0x804F8AF0 | size: 0x100
 .obj lbl_804F8AF0, global
@@ -126678,12 +126508,7 @@
 	.4byte parse_format_803B6784+0xF8
 	.4byte parse_format_803B6784+0xE0
 .endobj jumptable_804F9010
-
-# .data:0x641F4 | 0x804F9054 | size: 0x4
-.obj gap_07_804F9054_data, global
-.hidden gap_07_804F9054_data
 	.4byte 0x00000000
-.endobj gap_07_804F9054_data
 
 # .data:0x641F8 | 0x804F9058 | size: 0xD0
 .obj jumptable_804F9058, global
@@ -126813,12 +126638,7 @@
 	.4byte TRKDispatchMessage+0x110
 	.4byte TRKDispatchMessage+0x120
 .endobj jumptable_804F91B0
-
-# .data:0x643BC | 0x804F921C | size: 0x4
-.obj gap_07_804F921C_data, global
-.hidden gap_07_804F921C_data
 	.4byte 0x00000000
-.endobj gap_07_804F921C_data
 
 # .data:0x643C0 | 0x804F9220 | size: 0x1C
 .obj jumptable_804F9220, global
@@ -126847,12 +126667,7 @@
 	.byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
 	.byte 0x00
 .endobj gTRKRestoreFlags
-
-# .data:0x64401 | 0x804F9261 | size: 0x3
-.obj gap_07_804F9261_data, global
-.hidden gap_07_804F9261_data
 	.byte 0x00, 0x00, 0x00
-.endobj gap_07_804F9261_data
 
 # .data:0x64404 | 0x804F9264 | size: 0x10
 .obj gTRKExceptionStatus_804F9264, global
@@ -127101,12 +126916,7 @@
 .obj "@18_804F9678", global
 	.string "load fst\n"
 .endobj "@18_804F9678"
-
-# .data:0x64822 | 0x804F9682 | size: 0x2
-.obj gap_07_804F9682_data, global
-.hidden gap_07_804F9682_data
 	.2byte 0x0000
-.endobj gap_07_804F9682_data
 
 # .data:0x64824 | 0x804F9684 | size: 0x34
 .obj lbl_804F9684, global
@@ -127217,10 +127027,6 @@
 .obj "@36_804F97F8", global
 	.string "  Game Name ... %c%c%c%c\n"
 .endobj "@36_804F97F8"
-
-# .data:0x649B2 | 0x804F9812 | size: 0x56
-.obj gap_07_804F9812_data, global
-.hidden gap_07_804F9812_data
 	.4byte 0x00002020
 	.4byte 0x436F6D70
 	.4byte 0x616E7920
@@ -127243,7 +127049,6 @@
 	.4byte 0x67202E2E
 	.4byte 0x2E202573
 	.2byte 0x0A00
-.endobj gap_07_804F9812_data
 
 # .data:0x64A08 | 0x804F9868 | size: 0x44
 .obj lbl_804F9868, global
@@ -127513,12 +127318,7 @@
 	.4byte fn_803CB738+0x68
 	.4byte fn_803CB738+0x70
 .endobj jumptable_804F9BC8
-
-# .data:0x64DBC | 0x804F9C1C | size: 0x4
-.obj gap_07_804F9C1C_data, global
-.hidden gap_07_804F9C1C_data
 	.4byte 0x00000000
-.endobj gap_07_804F9C1C_data
 
 # .data:0x64DC0 | 0x804F9C20 | size: 0x3C
 .obj lbl_804F9C20, global
@@ -127606,12 +127406,7 @@
 	.4byte fn_803CCFA4+0xF0
 	.4byte fn_803CCFA4+0x124
 .endobj jumptable_804F9D10
-
-# .data:0x64ECC | 0x804F9D2C | size: 0x4
-.obj gap_07_804F9D2C_data, global
-.hidden gap_07_804F9D2C_data
 	.4byte 0x00000000
-.endobj gap_07_804F9D2C_data
 
 # .data:0x64ED0 | 0x804F9D30 | size: 0xF4
 .obj jumptable_804F9D30, global
@@ -127761,12 +127556,7 @@
 	.4byte fn_803CD7D4+0x20C
 	.4byte fn_803CD7D4+0x1F8
 .endobj jumptable_804F9F18
-
-# .data:0x650F4 | 0x804F9F54 | size: 0x4
-.obj gap_07_804F9F54_data, global
-.hidden gap_07_804F9F54_data
 	.4byte 0x00000000
-.endobj gap_07_804F9F54_data
 
 # .data:0x650F8 | 0x804F9F58 | size: 0x50
 .obj lbl_804F9F58, global
@@ -128084,21 +127874,12 @@
 	.4byte fn_803D0BA4+0x278
 	.4byte fn_803D0BA4+0x538
 .endobj jumptable_804FA35C
-
-# .data:0x6558C | 0x804FA3EC | size: 0x4
-.obj gap_07_804FA3EC_data, global
-.hidden gap_07_804FA3EC_data
 	.4byte 0x00000000
-.endobj gap_07_804FA3EC_data
 
 # .data:0x65590 | 0x804FA3F0 | size: 0x44
 .obj "@1_804FA3F0", global
 	.string "<< Dolphin SDK - OS\trelease build: Mar 17 2003 04:20:41 (0x2301) >>"
 .endobj "@1_804FA3F0"
-
-# .data:0x655D4 | 0x804FA434 | size: 0x1B4
-.obj gap_07_804FA434_data, global
-.hidden gap_07_804FA434_data
 	.4byte 0x0A446F6C
 	.4byte 0x7068696E
 	.4byte 0x204F530A
@@ -128208,7 +127989,6 @@
 	.4byte 0x616C697A
 	.4byte 0x65642E2E
 	.4byte 0x2E0A0000
-.endobj gap_07_804FA434_data
 
 # .data:0x65788 | 0x804FA5E8 | size: 0x398
 .obj lbl_804FA5E8, global
@@ -128484,10 +128264,6 @@
 .obj "@69_804FAA00", global
 	.string ">>> L2 INVALIDATE : SHOULD NEVER HAPPEN\n"
 .endobj "@69_804FAA00"
-
-# .data:0x65BC9 | 0x804FAA29 | size: 0x207
-.obj gap_07_804FAA29_data, global
-.hidden gap_07_804FAA29_data
 	.4byte 0x0000004D
 	.4byte 0x61636869
 	.4byte 0x6E652063
@@ -128618,7 +128394,6 @@
 	.4byte 0x6C65640A
 	.4byte 0x00000000
 	.byte 0x00, 0x00, 0x00
-.endobj gap_07_804FAA29_data
 
 # .data:0x65DD0 | 0x804FAC30 | size: 0x1B4
 .obj lbl_804FAC30, global
@@ -128737,21 +128512,12 @@
 .obj "@74_804FADE4", global
 	.string "FPU-unavailable handler installed\n"
 .endobj "@74_804FADE4"
-
-# .data:0x65FA7 | 0x804FAE07 | size: 0x1
-.obj gap_07_804FAE07_data, global
-.hidden gap_07_804FAE07_data
 	.byte 0x00
-.endobj gap_07_804FAE07_data
 
 # .data:0x65FA8 | 0x804FAE08 | size: 0x16
 .obj "@13_804FAE08", global
 	.string " in \"%s\" on line %d.\n"
 .endobj "@13_804FAE08"
-
-# .data:0x65FBE | 0x804FAE1E | size: 0x2C6
-.obj gap_07_804FAE1E_data, global
-.hidden gap_07_804FAE1E_data
 	.4byte 0x00000A41
 	.4byte 0x64647265
 	.4byte 0x73733A20
@@ -128930,7 +128696,6 @@
 	.4byte 0x31366C6C
 	.4byte 0x780A0000
 	.2byte 0x0000
-.endobj gap_07_804FAE1E_data
 
 # .data:0x66284 | 0x804FB0E4 | size: 0x40
 .obj "@87_804FB0E4", global
@@ -128951,12 +128716,7 @@
 	.4byte __OSUnhandledException+0x2B4
 	.4byte __OSUnhandledException+0x268
 .endobj "@87_804FB0E4"
-
-# .data:0x662C4 | 0x804FB124 | size: 0x4
-.obj gap_07_804FB124_data, global
-.hidden gap_07_804FB124_data
 	.4byte 0x00000000
-.endobj gap_07_804FB124_data
 
 # .data:0x662C8 | 0x804FB128 | size: 0x180
 .obj lbl_804FB128, global
@@ -130439,10 +130199,6 @@
 	.4byte fn_803DDA14+0x98
 	.4byte fn_803DDA14+0x90
 .endobj jumptable_804FC734
-
-# .data:0x67940 | 0x804FC7A0 | size: 0x154
-.obj gap_07_804FC7A0_data, global
-.hidden gap_07_804FC7A0_data
 	.4byte 0x2A2A2A2A
 	.4byte 0x2A2A2A2A
 	.4byte 0x2A2A2A2A
@@ -130528,7 +130284,6 @@
 	.4byte 0x666F7262
 	.4byte 0x69646465
 	.4byte 0x6E0A0000
-.endobj gap_07_804FC7A0_data
 
 # .data:0x67A94 | 0x804FC8F4 | size: 0x1C
 .obj "@724_804FC8F4", global
@@ -130774,10 +130529,6 @@
 	.4byte 0x00000008
 	.4byte 0x00000008
 .endobj Type_804FCC38
-
-# .data:0x67DE8 | 0x804FCC48 | size: 0xB0
-.obj gap_07_804FCC48_data, global
-.hidden gap_07_804FCC48_data
 	.4byte 0x4E6F2072
 	.4byte 0x6573706F
 	.4byte 0x6E736500
@@ -130822,7 +130573,6 @@
 	.4byte 0x72696E67
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj gap_07_804FCC48_data
 
 # .data:0x67E98 | 0x804FCCF8 | size: 0x30
 .obj XYNTSC_804FCCF8, global
@@ -130839,10 +130589,6 @@
 	.4byte 0x00830200
 	.4byte 0x00830200
 .endobj XYNTSC_804FCCF8
-
-# .data:0x67EC8 | 0x804FCD28 | size: 0x68
-.obj gap_07_804FCD28_data, global
-.hidden gap_07_804FCD28_data
 	.4byte 0x01280200
 	.4byte 0x000F1500
 	.4byte 0x001D0B00
@@ -130869,7 +130615,6 @@
 	.4byte 0x6661756C
 	.4byte 0x742E0000
 	.4byte 0x00000000
-.endobj gap_07_804FCD28_data
 
 # .data:0x67F30 | 0x804FCD90 | size: 0x110
 .obj lbl_804FCD90, global
@@ -136308,10 +136053,6 @@
 	.4byte fn_803F6EC8+0x150
 	.4byte fn_803F6EC8+0x158
 .endobj jumptable_805020E8
-
-# .data:0x6D2A8 | 0x80502108 | size: 0x34
-.obj gap_07_80502108_data, global
-.hidden gap_07_80502108_data
 	.4byte 0x00000005
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -136325,7 +136066,6 @@
 	.4byte 0x6D616765
 	.4byte 0x5F707472
 	.4byte 0x00000000
-.endobj gap_07_80502108_data
 
 # .data:0x6D2DC | 0x8050213C | size: 0x20
 .obj jumptable_8050213C, global
@@ -136452,10 +136192,6 @@
 	.4byte fn_803F7754+0x5C
 	.4byte fn_803F7754+0x64
 .endobj jumptable_80502294
-
-# .data:0x6D454 | 0x805022B4 | size: 0x4C
-.obj gap_07_805022B4_data, global
-.hidden gap_07_805022B4_data
 	.4byte 0x68736449
 	.4byte 0x73446573
 	.4byte 0x63656E64
@@ -136475,7 +136211,6 @@
 	.4byte 0x746F626A
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj gap_07_805022B4_data
 
 # .data:0x6D4A0 | 0x80502300 | size: 0x120
 .obj lbl_80502300, global
@@ -137583,12 +137318,7 @@
 	.4byte fn_803FCDB8+0xC8
 	.4byte fn_803FCDB8+0xE0
 .endobj jumptable_80503154
-
-# .data:0x6E324 | 0x80503184 | size: 0x4
-.obj gap_07_80503184_data, global
-.hidden gap_07_80503184_data
 	.4byte 0x00000000
-.endobj gap_07_80503184_data
 
 # .data:0x6E328 | 0x80503188 | size: 0x44
 .obj lbl_80503188, global
@@ -138034,10 +137764,6 @@
 	.4byte fn_80406688+0x2C4
 	.4byte fn_80406688+0x140
 .endobj jumptable_80503664
-
-# .data:0x6E86C | 0x805036CC | size: 0xC0
-.obj gap_07_805036CC_data, global
-.hidden gap_07_805036CC_data
 	.4byte 0x76657274
 	.4byte 0x65785F62
 	.4byte 0x75666665
@@ -138086,7 +137812,6 @@
 	.4byte 0x656E7665
 	.4byte 0x6C6F7065
 	.4byte 0x6D747800
-.endobj gap_07_805036CC_data
 
 # .data:0x6E92C | 0x8050378C | size: 0x3C
 .obj lbl_8050378C, global
@@ -138604,12 +138329,7 @@
 	.4byte fn_804107B4+0x174
 	.4byte fn_804107B4+0x198
 .endobj jumptable_80503E58
-
-# .data:0x6F01C | 0x80503E7C | size: 0x4
-.obj gap_07_80503E7C_data, global
-.hidden gap_07_80503E7C_data
 	.4byte 0x00000000
-.endobj gap_07_80503E7C_data
 
 # .data:0x6F020 | 0x80503E80 | size: 0xC
 .obj lbl_80503E80, global
@@ -138805,10 +138525,6 @@
 	.4byte fn_80418EA4+0x1A0
 	.4byte fn_80418EA4+0x1B8
 .endobj jumptable_80504078
-
-# .data:0x6F24C | 0x805040AC | size: 0x44
-.obj gap_07_805040AC_data, global
-.hidden gap_07_805040AC_data
 	.4byte 0x726F626A
 	.4byte 0x2D3E752E
 	.4byte 0x6A6F626A
@@ -138826,7 +138542,6 @@
 	.4byte 0x6475616C
 	.4byte 0x20213D20
 	.4byte 0x30000000
-.endobj gap_07_805040AC_data
 
 # .data:0x6F290 | 0x805040F0 | size: 0x34
 .obj lbl_805040F0, global
@@ -139587,10 +139302,6 @@
 	.4byte fn_804224D0+0x15C
 	.4byte fn_804224D0+0x164
 .endobj jumptable_80504AB0
-
-# .data:0x6FC6C | 0x80504ACC | size: 0x84
-.obj gap_07_80504ACC_data, global
-.hidden gap_07_80504ACC_data
 	.4byte 0x7465762D
 	.4byte 0x3E6B6173
 	.4byte 0x656C203D
@@ -139624,7 +139335,6 @@
 	.4byte 0x3D204853
 	.4byte 0x445F5445
 	.4byte 0x5F580000
-.endobj gap_07_80504ACC_data
 
 # .data:0x6FCF0 | 0x80504B50 | size: 0x1C
 .obj jumptable_80504B50, global
@@ -140263,10 +139973,6 @@
 	.4byte fn_8043294C+0x3E4
 	.4byte fn_8043294C+0x508
 .endobj jumptable_805052C0
-
-# .data:0x70484 | 0x805052E4 | size: 0x1C
-.obj gap_07_805052E4_data, global
-.hidden gap_07_805052E4_data
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -140274,7 +139980,6 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj gap_07_805052E4_data
 
 # .data:0x704A0 | 0x80505300 | size: 0xC
 .obj lbl_80505300, global
@@ -144040,12 +143745,7 @@
 	.4byte fn_80440130+0xAC
 	.4byte fn_80440130+0x90
 .endobj jumptable_80508910
-
-# .data:0x73AE4 | 0x80508944 | size: 0x4
-.obj gap_07_80508944_data, global
-.hidden gap_07_80508944_data
 	.4byte 0x00000000
-.endobj gap_07_80508944_data
 
 # .data:0x73AE8 | 0x80508948 | size: 0x38
 .obj lbl_80508948, global
@@ -145122,17 +144822,12 @@
 	.4byte fn_804516E4+0xA20
 	.4byte fn_804516E4+0xA2C
 .endobj jumptable_8050983C
-
-# .data:0x74A48 | 0x805098A8 | size: 0x18
-.obj gap_07_805098A8_data, global
-.hidden gap_07_805098A8_data
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000000
-.endobj gap_07_805098A8_data
 
 # .data:0x74A60 | 0x805098C0 | size: 0x280
 .obj lbl_805098C0, global
@@ -186628,10 +186323,6 @@
 	.4byte fn_8045A9D4+0x1C8
 	.4byte fn_8045A9D4+0x200
 .endobj jumptable_805322EC
-
-# .data:0x9D4AC | 0x8053230C | size: 0x44
-.obj gap_07_8053230C_data, global
-.hidden gap_07_8053230C_data
 	.4byte 0x5B474350
 	.4byte 0x5F4D656D
 	.4byte 0x43617264
@@ -186649,7 +186340,6 @@
 	.4byte 0x72202564
 	.4byte 0x0A000000
 	.4byte 0x00000000
-.endobj gap_07_8053230C_data
 
 # .data:0x9D4F0 | 0x80532350 | size: 0x18
 .obj lbl_80532350, global
@@ -186694,12 +186384,7 @@
 	.4byte fn_8045C5A8+0x70
 	.4byte fn_8045C5A8+0x48
 .endobj jumptable_805323B8
-
-# .data:0x9D574 | 0x805323D4 | size: 0x4
-.obj gap_07_805323D4_data, global
-.hidden gap_07_805323D4_data
 	.4byte 0x00000000
-.endobj gap_07_805323D4_data
 
 # .data:0x9D578 | 0x805323D8 | size: 0x20
 .obj lbl_805323D8, global
@@ -188613,12 +188298,7 @@
 	.4byte fn_8046CFC4+0x2DC
 	.4byte fn_8046CFC4+0x320
 .endobj jumptable_80534088
-
-# .data:0x9F25C | 0x805340BC | size: 0x4
-.obj gap_07_805340BC_data, global
-.hidden gap_07_805340BC_data
 	.4byte 0x00000000
-.endobj gap_07_805340BC_data
 
 # .data:0x9F260 | 0x805340C0 | size: 0x44
 .obj lbl_805340C0, global
@@ -188648,12 +188328,7 @@
 	.4byte fn_8047697C+0x270
 	.4byte fn_8047697C+0x270
 .endobj jumptable_80534118
-
-# .data:0x9F2E4 | 0x80534144 | size: 0x4
-.obj gap_07_80534144_data, global
-.hidden gap_07_80534144_data
 	.4byte 0x00000000
-.endobj gap_07_80534144_data
 
 # .data:0x9F2E8 | 0x80534148 | size: 0xF0
 .obj jumptable_80534148, global
@@ -188811,12 +188486,7 @@
 	.4byte fn_8047D06C+0x224
 	.4byte fn_8047D06C+0x234
 .endobj jumptable_805342F8
-
-# .data:0x9F4E4 | 0x80534344 | size: 0x4
-.obj gap_07_80534344_data, global
-.hidden gap_07_80534344_data
 	.4byte 0x00000000
-.endobj gap_07_80534344_data
 
 # .data:0x9F4E8 | 0x80534348 | size: 0x28
 .obj jumptable_80534348, global

@@ -15388,7 +15388,7 @@ void FUN_803adb84(void);
 void FUN_803adb88(void);
 void FUN_803adb8c(void);
 void FUN_803adb90(void);
-void FUN_803adb94(void);
+void _restgpr_24(void);
 void FUN_803adb98(void);
 void FUN_803adb9c(void);
 void FUN_803adba0(void);

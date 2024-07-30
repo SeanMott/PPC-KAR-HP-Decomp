@@ -59,12 +59,7 @@
 .obj __OSInIPL, global
 	.skip 0x4
 .endobj __OSInIPL
-
-# .sbss:0x34 | 0x805DDE9C | size: 0x4
-.obj gap_10_805DDE9C_sbss, global
-.hidden gap_10_805DDE9C_sbss
 	.skip 0x4
-.endobj gap_10_805DDE9C_sbss
 
 # .sbss:0x38 | 0x805DDEA0 | size: 0x8
 .obj __OSStartTime, global
@@ -100,12 +95,7 @@
 .obj __OSArenaHi_805DDEC0, global
 	.skip 0x4
 .endobj __OSArenaHi_805DDEC0
-
-# .sbss:0x5C | 0x805DDEC4 | size: 0x4
-.obj gap_10_805DDEC4_sbss, global
-.hidden gap_10_805DDEC4_sbss
 	.skip 0x4
-.endobj gap_10_805DDEC4_sbss
 
 # .sbss:0x60 | 0x805DDEC8 | size: 0x4
 .obj lbl_805DDEC8, global
@@ -141,12 +131,7 @@
 .obj __OSLastInterrupt, global
 	.skip 0x2
 .endobj __OSLastInterrupt
-
-# .sbss:0x7A | 0x805DDEE2 | size: 0x6
-.obj gap_10_805DDEE2_sbss, global
-.hidden gap_10_805DDEE2_sbss
 	.skip 0x6
-.endobj gap_10_805DDEE2_sbss
 
 # .sbss:0x80 | 0x805DDEE8 | size: 0x8
 .obj __OSLastInterruptTime, global
@@ -222,23 +207,13 @@
 .obj Reschedule_805DDF30, global
 	.skip 0x4
 .endobj Reschedule_805DDF30
-
-# .sbss:0xCC | 0x805DDF34 | size: 0x4
-.obj gap_10_805DDF34_sbss, global
-.hidden gap_10_805DDF34_sbss
 	.skip 0x4
-.endobj gap_10_805DDF34_sbss
 
 # .sbss:0xD0 | 0x805DDF38 | size: 0x1
 .obj Debug_BBA_805DDF38, global
 	.skip 0x1
 .endobj Debug_BBA_805DDF38
-
-# .sbss:0xD1 | 0x805DDF39 | size: 0x7
-.obj gap_10_805DDF39_sbss, global
-.hidden gap_10_805DDF39_sbss
 	.skip 0x7
-.endobj gap_10_805DDF39_sbss
 
 # .sbss:0xD8 | 0x805DDF40 | size: 0x4
 .obj lbl_805DDF40, global
@@ -589,23 +564,13 @@
 .obj SamplingRate_805DE060, global
 	.skip 0x4
 .endobj SamplingRate_805DE060
-
-# .sbss:0x1FC | 0x805DE064 | size: 0x4
-.obj gap_10_805DE064_sbss, global
-.hidden gap_10_805DE064_sbss
 	.skip 0x4
-.endobj gap_10_805DE064_sbss
 
 # .sbss:0x200 | 0x805DE068 | size: 0x4
 .obj IDSerialPort1_805DE068, global
 	.skip 0x4
 .endobj IDSerialPort1_805DE068
-
-# .sbss:0x204 | 0x805DE06C | size: 0x4
-.obj gap_10_805DE06C_sbss, global
-.hidden gap_10_805DE06C_sbss
 	.skip 0x4
-.endobj gap_10_805DE06C_sbss
 
 # .sbss:0x208 | 0x805DE070 | size: 0x4
 .obj lbl_805DE070, global
@@ -891,12 +856,7 @@
 .obj lbl_805DE16C, global
 	.skip 0x1
 .endobj lbl_805DE16C
-
-# .sbss:0x305 | 0x805DE16D | size: 0x3
-.obj gap_10_805DE16D_sbss, global
-.hidden gap_10_805DE16D_sbss
 	.skip 0x3
-.endobj gap_10_805DE16D_sbss
 
 # .sbss:0x308 | 0x805DE170 | size: 0x4
 .obj lbl_805DE170, global
@@ -952,12 +912,7 @@
 .obj lbl_805DE186, global
 	.skip 0x1
 .endobj lbl_805DE186
-
-# .sbss:0x31F | 0x805DE187 | size: 0x1
-.obj gap_10_805DE187_sbss, global
-.hidden gap_10_805DE187_sbss
 	.skip 0x1
-.endobj gap_10_805DE187_sbss
 
 # .sbss:0x320 | 0x805DE188 | size: 0x4
 .obj lbl_805DE188, global
@@ -973,12 +928,7 @@
 .obj lbl_805DE190, global
 	.skip 0x1
 .endobj lbl_805DE190
-
-# .sbss:0x329 | 0x805DE191 | size: 0x3
-.obj gap_10_805DE191_sbss, global
-.hidden gap_10_805DE191_sbss
 	.skip 0x3
-.endobj gap_10_805DE191_sbss
 
 # .sbss:0x32C | 0x805DE194 | size: 0x4
 .obj lbl_805DE194, global
@@ -989,12 +939,7 @@
 .obj lbl_805DE198, global
 	.skip 0x1
 .endobj lbl_805DE198
-
-# .sbss:0x331 | 0x805DE199 | size: 0x3
-.obj gap_10_805DE199_sbss, global
-.hidden gap_10_805DE199_sbss
 	.skip 0x3
-.endobj gap_10_805DE199_sbss
 
 # .sbss:0x334 | 0x805DE19C | size: 0x4
 .obj lbl_805DE19C, global
@@ -1005,12 +950,7 @@
 .obj lbl_805DE1A0, global
 	.skip 0x1
 .endobj lbl_805DE1A0
-
-# .sbss:0x339 | 0x805DE1A1 | size: 0x3
-.obj gap_10_805DE1A1_sbss, global
-.hidden gap_10_805DE1A1_sbss
 	.skip 0x3
-.endobj gap_10_805DE1A1_sbss
 
 # .sbss:0x33C | 0x805DE1A4 | size: 0x4
 .obj lbl_805DE1A4, global
@@ -1046,12 +986,7 @@
 .obj lbl_805DE1BC, global
 	.skip 0x1
 .endobj lbl_805DE1BC
-
-# .sbss:0x355 | 0x805DE1BD | size: 0x3
-.obj gap_10_805DE1BD_sbss, global
-.hidden gap_10_805DE1BD_sbss
 	.skip 0x3
-.endobj gap_10_805DE1BD_sbss
 
 # .sbss:0x358 | 0x805DE1C0 | size: 0x4
 .obj lbl_805DE1C0, global
@@ -1062,12 +997,7 @@
 .obj lbl_805DE1C4, global
 	.skip 0x1
 .endobj lbl_805DE1C4
-
-# .sbss:0x35D | 0x805DE1C5 | size: 0x3
-.obj gap_10_805DE1C5_sbss, global
-.hidden gap_10_805DE1C5_sbss
 	.skip 0x3
-.endobj gap_10_805DE1C5_sbss
 
 # .sbss:0x360 | 0x805DE1C8 | size: 0x4
 .obj lbl_805DE1C8, global
@@ -1693,12 +1623,7 @@
 .obj lbl_805DE3E0, global
 	.skip 0x2
 .endobj lbl_805DE3E0
-
-# .sbss:0x57A | 0x805DE3E2 | size: 0x2
-.obj gap_10_805DE3E2_sbss, global
-.hidden gap_10_805DE3E2_sbss
 	.skip 0x2
-.endobj gap_10_805DE3E2_sbss
 
 # .sbss:0x57C | 0x805DE3E4 | size: 0x4
 .obj lbl_805DE3E4, global
@@ -1969,12 +1894,7 @@
 .obj lbl_805DE4BC, global
 	.skip 0x1
 .endobj lbl_805DE4BC
-
-# .sbss:0x655 | 0x805DE4BD | size: 0x3
-.obj gap_10_805DE4BD_sbss, global
-.hidden gap_10_805DE4BD_sbss
 	.skip 0x3
-.endobj gap_10_805DE4BD_sbss
 
 # .sbss:0x658 | 0x805DE4C0 | size: 0x4
 .obj lbl_805DE4C0, global
@@ -2240,12 +2160,7 @@
 .obj lbl_805DE59E, global
 	.skip 0x1
 .endobj lbl_805DE59E
-
-# .sbss:0x737 | 0x805DE59F | size: 0x1
-.obj gap_10_805DE59F_sbss, global
-.hidden gap_10_805DE59F_sbss
 	.skip 0x1
-.endobj gap_10_805DE59F_sbss
 
 # .sbss:0x738 | 0x805DE5A0 | size: 0x8
 .obj lbl_805DE5A0, global
@@ -2316,12 +2231,7 @@
 .obj lbl_805DE5D8, global
 	.skip 0x2
 .endobj lbl_805DE5D8
-
-# .sbss:0x772 | 0x805DE5DA | size: 0x2
-.obj gap_10_805DE5DA_sbss, global
-.hidden gap_10_805DE5DA_sbss
 	.skip 0x2
-.endobj gap_10_805DE5DA_sbss
 
 # .sbss:0x774 | 0x805DE5DC | size: 0x4
 .obj lbl_805DE5DC, global
@@ -2337,23 +2247,13 @@
 .obj lbl_805DE5E4, global
 	.skip 0x2
 .endobj lbl_805DE5E4
-
-# .sbss:0x77E | 0x805DE5E6 | size: 0x2
-.obj gap_10_805DE5E6_sbss, global
-.hidden gap_10_805DE5E6_sbss
 	.skip 0x2
-.endobj gap_10_805DE5E6_sbss
 
 # .sbss:0x780 | 0x805DE5E8 | size: 0x1
 .obj lbl_805DE5E8, global
 	.skip 0x1
 .endobj lbl_805DE5E8
-
-# .sbss:0x781 | 0x805DE5E9 | size: 0x3
-.obj gap_10_805DE5E9_sbss, global
-.hidden gap_10_805DE5E9_sbss
 	.skip 0x3
-.endobj gap_10_805DE5E9_sbss
 
 # .sbss:0x784 | 0x805DE5EC | size: 0x4
 .obj lbl_805DE5EC, global
@@ -2579,12 +2479,7 @@
 .obj lbl_805DE6DC, global
 	.skip 0x1
 .endobj lbl_805DE6DC
-
-# .sbss:0x875 | 0x805DE6DD | size: 0x3
-.obj gap_10_805DE6DD_sbss, global
-.hidden gap_10_805DE6DD_sbss
 	.skip 0x3
-.endobj gap_10_805DE6DD_sbss
 
 # .sbss:0x878 | 0x805DE6E0 | size: 0x4
 .obj lbl_805DE6E0, global

@@ -2672,12 +2672,7 @@
 	.string "NAN"
 	.string "nan"
 .endobj "@stringBase0_8048B830"
-
-# .rodata:0x23D5 | 0x8048B855 | size: 0x3
-.obj gap_06_8048B855_rodata, global
-.hidden gap_06_8048B855_rodata
 	.byte 0x00, 0x00, 0x00
-.endobj gap_06_8048B855_rodata
 
 # .rodata:0x23D8 | 0x8048B858 | size: 0x28
 .obj lbl_8048B858, global
@@ -2944,23 +2939,13 @@
 .obj "@62_8048BC00", global
 	.string "MetroTRK for GAMECUBE v2.0"
 .endobj "@62_8048BC00"
-
-# .rodata:0x279B | 0x8048BC1B | size: 0x1
-.obj gap_06_8048BC1B_rodata, global
-.hidden gap_06_8048BC1B_rodata
 	.byte 0x00
-.endobj gap_06_8048BC1B_rodata
 
 # .rodata:0x279C | 0x8048BC1C | size: 0x10
 .obj "@154_8048BC1C", global
 	.string "Initialize NUB\n"
 .endobj "@154_8048BC1C"
-
-# .rodata:0x27AC | 0x8048BC2C | size: 0x4
-.obj gap_06_8048BC2C_rodata, global
-.hidden gap_06_8048BC2C_rodata
 	.4byte 0x00000000
-.endobj gap_06_8048BC2C_rodata
 
 # .rodata:0x27B0 | 0x8048BC30 | size: 0x28
 .obj lbl_8048BC30, global
@@ -3367,13 +3352,8 @@
 .obj "@80_8048C170", global
 	.string "TRK_Main \n"
 .endobj "@80_8048C170"
-
-# .rodata:0x2CFB | 0x8048C17B | size: 0x5
-.obj gap_06_8048C17B_rodata, global
-.hidden gap_06_8048C17B_rodata
 	.4byte 0x00000000
 	.byte 0x00
-.endobj gap_06_8048C17B_rodata
 
 # .rodata:0x2D00 | 0x8048C180 | size: 0x4
 .obj EndofProgramInstruction$162_8048C180, global

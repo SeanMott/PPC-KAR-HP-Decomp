@@ -884,12 +884,7 @@
 .obj fragmentinfo_80569A00, global
 	.skip 0xC
 .endobj fragmentinfo_80569A00
-
-# .bss:0x3470C | 0x80569A0C | size: 0x4
-.obj gap_08_80569A0C_bss, global
-.hidden gap_08_80569A0C_bss
 	.skip 0x4
-.endobj gap_08_80569A0C_bss
 
 # .bss:0x34710 | 0x80569A10 | size: 0x100
 .obj __atexit_funcs, global
@@ -930,12 +925,7 @@
 .obj gTRKBigEndian, global
 	.skip 0x4
 .endobj gTRKBigEndian
-
-# .bss:0x34B8C | 0x80569E8C | size: 0x4
-.obj gap_08_80569E8C_bss, global
-.hidden gap_08_80569E8C_bss
 	.skip 0x4
-.endobj gap_08_80569E8C_bss
 
 # .bss:0x34B90 | 0x80569E90 | size: 0x19B0
 .obj lbl_80569E90, global
@@ -956,12 +946,7 @@
 .obj TRK_saved_exceptionID_8056B860, global
 	.skip 0x2
 .endobj TRK_saved_exceptionID_8056B860
-
-# .bss:0x36562 | 0x8056B862 | size: 0x2
-.obj gap_08_8056B862_bss, global
-.hidden gap_08_8056B862_bss
 	.skip 0x2
-.endobj gap_08_8056B862_bss
 
 # .bss:0x36564 | 0x8056B864 | size: 0xA4
 .obj gTRKState, global
@@ -992,23 +977,13 @@
 .obj TRK_mainError_8056BDE8, global
 	.skip 0x4
 .endobj TRK_mainError_8056BDE8
-
-# .bss:0x36AEC | 0x8056BDEC | size: 0x4
-.obj gap_08_8056BDEC_bss, global
-.hidden gap_08_8056BDEC_bss
 	.skip 0x4
-.endobj gap_08_8056BDEC_bss
 
 # .bss:0x36AF0 | 0x8056BDF0 | size: 0x1
 .obj TRK_Use_BBA, global
 	.skip 0x1
 .endobj TRK_Use_BBA
-
-# .bss:0x36AF1 | 0x8056BDF1 | size: 0x7
-.obj gap_08_8056BDF1_bss, global
-.hidden gap_08_8056BDF1_bss
 	.skip 0x7
-.endobj gap_08_8056BDF1_bss
 
 # .bss:0x36AF8 | 0x8056BDF8 | size: 0x8
 .obj lbl_8056BDF8, global
@@ -1039,23 +1014,13 @@
 .obj CommandList_8056CB40, global
 	.skip 0x3C
 .endobj CommandList_8056CB40
-
-# .bss:0x3787C | 0x8056CB7C | size: 0x2C
-.obj gap_08_8056CB7C_bss, global
-.hidden gap_08_8056CB7C_bss
 	.skip 0x2C
-.endobj gap_08_8056CB7C_bss
 
 # .bss:0x378A8 | 0x8056CBA8 | size: 0x28
 .obj AlarmForTimeout_8056CBA8, global
 	.skip 0x28
 .endobj AlarmForTimeout_8056CBA8
-
-# .bss:0x378D0 | 0x8056CBD0 | size: 0x50
-.obj gap_08_8056CBD0_bss, global
-.hidden gap_08_8056CBD0_bss
 	.skip 0x50
-.endobj gap_08_8056CBD0_bss
 
 # .bss:0x37920 | 0x8056CC20 | size: 0x20
 .obj BB2_8056CC20, global
@@ -1071,12 +1036,7 @@
 .obj DummyCommandBlock_8056CC60, global
 	.skip 0x30
 .endobj DummyCommandBlock_8056CC60
-
-# .bss:0x37990 | 0x8056CC90 | size: 0x28
-.obj gap_08_8056CC90_bss, global
-.hidden gap_08_8056CC90_bss
 	.skip 0x28
-.endobj gap_08_8056CC90_bss
 
 # .bss:0x379B8 | 0x8056CCB8 | size: 0x20
 .obj WaitingQueue_8056CCB8, global
@@ -1087,12 +1047,7 @@
 .obj bb2Buf_8056CCD8, global
 	.skip 0x3F
 .endobj bb2Buf_8056CCD8
-
-# .bss:0x37A17 | 0x8056CD17 | size: 0x1
-.obj gap_08_8056CD17_bss, global
-.hidden gap_08_8056CD17_bss
 	.skip 0x1
-.endobj gap_08_8056CD17_bss
 
 # .bss:0x37A18 | 0x8056CD18 | size: 0x30
 .obj block$16_8056CD18, global
@@ -1103,12 +1058,7 @@
 .obj gxData_8056CD48, global
 	.skip 0x4F8
 .endobj gxData_8056CD48
-
-# .bss:0x37F40 | 0x8056D240 | size: 0x80
-.obj gap_08_8056D240_bss, global
-.hidden gap_08_8056D240_bss
 	.skip 0x80
-.endobj gap_08_8056D240_bss
 
 # .bss:0x37FC0 | 0x8056D2C0 | size: 0x2A0
 .obj lbl_8056D2C0, global
@@ -1119,23 +1069,13 @@
 .obj DriveInfo_8056D560, global
 	.skip 0x20
 .endobj DriveInfo_8056D560
-
-# .bss:0x38280 | 0x8056D580 | size: 0x30
-.obj gap_08_8056D580_bss, global
-.hidden gap_08_8056D580_bss
 	.skip 0x30
-.endobj gap_08_8056D580_bss
 
 # .bss:0x382B0 | 0x8056D5B0 | size: 0x44
 .obj __OSErrorTable, global
 	.skip 0x44
 .endobj __OSErrorTable
-
-# .bss:0x382F4 | 0x8056D5F4 | size: 0x4
-.obj gap_08_8056D5F4_bss, global
-.hidden gap_08_8056D5F4_bss
 	.skip 0x4
-.endobj gap_08_8056D5F4_bss
 
 # .bss:0x382F8 | 0x8056D5F8 | size: 0x2E8
 .obj lbl_8056D5F8, global
@@ -1151,23 +1091,13 @@
 .obj Scb_8056D900, global
 	.skip 0x54
 .endobj Scb_8056D900
-
-# .bss:0x38654 | 0x8056D954 | size: 0x4
-.obj gap_08_8056D954_bss, global
-.hidden gap_08_8056D954_bss
 	.skip 0x4
-.endobj gap_08_8056D954_bss
 
 # .bss:0x38658 | 0x8056D958 | size: 0x100
 .obj RunQueue_8056D958, global
 	.skip 0x100
 .endobj RunQueue_8056D958
-
-# .bss:0x38758 | 0x8056DA58 | size: 0x8F8
-.obj gap_08_8056DA58_bss, global
-.hidden gap_08_8056DA58_bss
 	.skip 0x8F8
-.endobj gap_08_8056DA58_bss
 
 # .bss:0x39050 | 0x8056E350 | size: 0x10
 .obj lbl_8056E350, global

@@ -142,12 +142,7 @@
 .obj lbl_805D5188, global
 	.byte 0x04
 .endobj lbl_805D5188
-
-# .sdata:0xA9 | 0x805D5189 | size: 0x3
-.obj gap_09_805D5189_sdata, global
-.hidden gap_09_805D5189_sdata
 	.byte 0x00, 0x00, 0x00
-.endobj gap_09_805D5189_sdata
 
 # .sdata:0xAC | 0x805D518C | size: 0x8
 .obj lbl_805D518C, global
@@ -738,12 +733,7 @@
 .obj lbl_805D543C, global
 	.byte 0xFF
 .endobj lbl_805D543C
-
-# .sdata:0x35D | 0x805D543D | size: 0x3
-.obj gap_09_805D543D_sdata, global
-.hidden gap_09_805D543D_sdata
 	.byte 0x80, 0x00, 0xFF
-.endobj gap_09_805D543D_sdata
 
 # .sdata:0x360 | 0x805D5440 | size: 0x8
 .obj lbl_805D5440, global
@@ -1219,12 +1209,7 @@
 .obj lbl_805D5650, global
 	.byte 0xFF
 .endobj lbl_805D5650
-
-# .sdata:0x571 | 0x805D5651 | size: 0x3
-.obj gap_09_805D5651_sdata, global
-.hidden gap_09_805D5651_sdata
 	.byte 0x00, 0x00, 0xFF
-.endobj gap_09_805D5651_sdata
 
 # .sdata:0x574 | 0x805D5654 | size: 0x4
 .obj lbl_805D5654, global
@@ -1235,12 +1220,7 @@
 .obj lbl_805D5658, global
 	.byte 0x00
 .endobj lbl_805D5658
-
-# .sdata:0x579 | 0x805D5659 | size: 0x3
-.obj gap_09_805D5659_sdata, global
-.hidden gap_09_805D5659_sdata
 	.byte 0x00, 0xFF, 0xFF
-.endobj gap_09_805D5659_sdata
 
 # .sdata:0x57C | 0x805D565C | size: 0x4
 .obj lbl_805D565C, global
@@ -2325,12 +2305,7 @@
 .obj lbl_805D5B48, global
 	.byte 0xFF
 .endobj lbl_805D5B48
-
-# .sdata:0xA69 | 0x805D5B49 | size: 0x3
-.obj gap_09_805D5B49_sdata, global
-.hidden gap_09_805D5B49_sdata
 	.byte 0xFF, 0xFF, 0x00
-.endobj gap_09_805D5B49_sdata
 
 # .sdata:0xA6C | 0x805D5B4C | size: 0x4
 .obj lbl_805D5B4C, global
@@ -23368,23 +23343,13 @@
 .obj lbl_805DC6A0, global
 	.2byte 0x814A
 .endobj lbl_805DC6A0
-
-# .sdata:0x75C2 | 0x805DC6A2 | size: 0x2
-.obj gap_09_805DC6A2_sdata, global
-.hidden gap_09_805DC6A2_sdata
 	.2byte 0x0000
-.endobj gap_09_805DC6A2_sdata
 
 # .sdata:0x75C4 | 0x805DC6A4 | size: 0x2
 .obj lbl_805DC6A4, global
 	.2byte 0x814B
 .endobj lbl_805DC6A4
-
-# .sdata:0x75C6 | 0x805DC6A6 | size: 0x2
-.obj gap_09_805DC6A6_sdata, global
-.hidden gap_09_805DC6A6_sdata
 	.2byte 0x0000
-.endobj gap_09_805DC6A6_sdata
 
 # .sdata:0x75C8 | 0x805DC6A8 | size: 0x8
 .obj lbl_805DC6A8, global
@@ -23743,12 +23708,7 @@
 .obj fragmentID_805DC870, global
 	.4byte 0xFFFFFFFE
 .endobj fragmentID_805DC870
-
-# .sdata:0x7794 | 0x805DC874 | size: 0x4
-.obj gap_09_805DC874_sdata, global
-.hidden gap_09_805DC874_sdata
 	.4byte 0x00000000
-.endobj gap_09_805DC874_sdata
 
 # .sdata:0x7798 | 0x805DC878 | size: 0x8
 .obj lbl_805DC878, global
@@ -23766,13 +23726,8 @@
 .obj "@wstringBase0_805DC888", global
 	.2byte 0x0000
 .endobj "@wstringBase0_805DC888"
-
-# .sdata:0x77AA | 0x805DC88A | size: 0x6
-.obj gap_09_805DC88A_sdata, global
-.hidden gap_09_805DC88A_sdata
 	.4byte 0x00000000
 	.2byte 0x0000
-.endobj gap_09_805DC88A_sdata
 
 # .sdata:0x77B0 | 0x805DC890 | size: 0x4
 .obj lbl_805DC890, global
@@ -23867,12 +23822,7 @@
 .obj "@35_805DC8F8", global
 	.string "\n"
 .endobj "@35_805DC8F8"
-
-# .sdata:0x781A | 0x805DC8FA | size: 0x2
-.obj gap_09_805DC8FA_sdata, global
-.hidden gap_09_805DC8FA_sdata
 	.2byte 0x0000
-.endobj gap_09_805DC8FA_sdata
 
 # .sdata:0x781C | 0x805DC8FC | size: 0x4
 .obj "@40_805DC8FC", global
@@ -23883,24 +23833,14 @@
 .obj "@41_805DC900", global
 	.string "ON"
 .endobj "@41_805DC900"
-
-# .sdata:0x7823 | 0x805DC903 | size: 0x5
-.obj gap_09_805DC903_sdata, global
-.hidden gap_09_805DC903_sdata
 	.4byte 0x00000000
 	.byte 0x00
-.endobj gap_09_805DC903_sdata
 
 # .sdata:0x7828 | 0x805DC908 | size: 0x4
 .obj __GXVersion, global
 	.4byte lbl_804F9868
 .endobj __GXVersion
-
-# .sdata:0x782C | 0x805DC90C | size: 0x4
-.obj gap_09_805DC90C_sdata, global
-.hidden gap_09_805DC90C_sdata
 	.4byte 0x00000000
-.endobj gap_09_805DC90C_sdata
 
 # .sdata:0x7830 | 0x805DC910 | size: 0x4
 .obj lbl_805DC910, global
@@ -23981,12 +23921,7 @@
 .obj "@97_805DC96C", global
 	.string "%08x\n"
 .endobj "@97_805DC96C"
-
-# .sdata:0x7892 | 0x805DC972 | size: 0x2
-.obj gap_09_805DC972_sdata, global
-.hidden gap_09_805DC972_sdata
 	.2byte 0x0000
-.endobj gap_09_805DC972_sdata
 
 # .sdata:0x7894 | 0x805DC974 | size: 0x4
 .obj lbl_805DC974, global
@@ -24003,12 +23938,7 @@
 .obj __OSArenaLo_805DC980, global
 	.4byte 0xFFFFFFFF
 .endobj __OSArenaLo_805DC980
-
-# .sdata:0x78A4 | 0x805DC984 | size: 0x4
-.obj gap_09_805DC984_sdata, global
-.hidden gap_09_805DC984_sdata
 	.4byte 0x00000000
-.endobj gap_09_805DC984_sdata
 
 # .sdata:0x78A8 | 0x805DC988 | size: 0x4
 .obj lbl_805DC988, global
@@ -24019,12 +23949,7 @@
 .obj "@76_805DC98C", global
 	.string "\n"
 .endobj "@76_805DC98C"
-
-# .sdata:0x78AE | 0x805DC98E | size: 0x2
-.obj gap_09_805DC98E_sdata, global
-.hidden gap_09_805DC98E_sdata
 	.2byte 0x0000
-.endobj gap_09_805DC98E_sdata
 
 # .sdata:0x78B0 | 0x805DC990 | size: 0x8
 .obj lbl_805DC990, global
@@ -24144,23 +24069,13 @@
 .obj __SIVersion, global
 	.4byte lbl_804FCBE0
 .endobj __SIVersion
-
-# .sdata:0x792C | 0x805DCA0C | size: 0x4
-.obj gap_09_805DCA0C_sdata, global
-.hidden gap_09_805DCA0C_sdata
 	.4byte 0x00000000
-.endobj gap_09_805DCA0C_sdata
 
 # .sdata:0x7930 | 0x805DCA10 | size: 0x4
 .obj __EXIVersion, global
 	.4byte lbl_804FCD90
 .endobj __EXIVersion
-
-# .sdata:0x7934 | 0x805DCA14 | size: 0x4
-.obj gap_09_805DCA14_sdata, global
-.hidden gap_09_805DCA14_sdata
 	.4byte 0x00000000
-.endobj gap_09_805DCA14_sdata
 
 # .sdata:0x7938 | 0x805DCA18 | size: 0x8
 .obj lbl_805DCA18, global
@@ -24960,12 +24875,7 @@
 .obj lbl_805DCDD0, global
 	.2byte 0x0100
 .endobj lbl_805DCDD0
-
-# .sdata:0x7CF2 | 0x805DCDD2 | size: 0x2
-.obj gap_09_805DCDD2_sdata, global
-.hidden gap_09_805DCDD2_sdata
 	.2byte 0x0000
-.endobj gap_09_805DCDD2_sdata
 
 # .sdata:0x7CF4 | 0x805DCDD4 | size: 0x8
 .obj lbl_805DCDD4, global
@@ -24984,12 +24894,7 @@
 .obj lbl_805DCDE8, global
 	.byte 0x7B
 .endobj lbl_805DCDE8
-
-# .sdata:0x7D09 | 0x805DCDE9 | size: 0x3
-.obj gap_09_805DCDE9_sdata, global
-.hidden gap_09_805DCDE9_sdata
 	.byte 0x00, 0x00, 0x00
-.endobj gap_09_805DCDE9_sdata
 
 # .sdata:0x7D0C | 0x805DCDEC | size: 0x4
 .obj lbl_805DCDEC, global
@@ -25894,12 +25799,7 @@
 .obj lbl_805DD1E4, global
 	.byte 0x4E
 .endobj lbl_805DD1E4
-
-# .sdata:0x8105 | 0x805DD1E5 | size: 0x3
-.obj gap_09_805DD1E5_sdata, global
-.hidden gap_09_805DD1E5_sdata
 	.byte 0x00, 0x00, 0x00
-.endobj gap_09_805DD1E5_sdata
 
 # .sdata:0x8108 | 0x805DD1E8 | size: 0x8
 .obj lbl_805DD1E8, global

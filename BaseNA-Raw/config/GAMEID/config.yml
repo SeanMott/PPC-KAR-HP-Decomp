@@ -1,0 +1,10 @@
+object: orig/GAMEID/sys/main.dol
+hash: 977533bb96e6a16e127946396489be1b4164ac42
+symbols: config/GAMEID/symbols.tx
+splits: config/GAMEID/splits.txt
+quick_analysis : false
+detect_objects : true
+detect_strings : true
+write_asm : true
+fill_gaps : false
+export_all : true

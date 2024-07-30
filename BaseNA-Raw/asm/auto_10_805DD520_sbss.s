@@ -269,12 +269,7 @@
 .obj lbl_805DD644, global
 	.skip 0x2
 .endobj lbl_805DD644
-
-# .sbss:0x126 | 0x805DD646 | size: 0x2
-.obj gap_10_805DD646_sbss, global
-.hidden gap_10_805DD646_sbss
 	.skip 0x2
-.endobj gap_10_805DD646_sbss
 
 # .sbss:0x128 | 0x805DD648 | size: 0x4
 .obj lbl_805DD648, global
@@ -285,12 +280,7 @@
 .obj lbl_805DD64C, global
 	.skip 0x1
 .endobj lbl_805DD64C
-
-# .sbss:0x12D | 0x805DD64D | size: 0x3
-.obj gap_10_805DD64D_sbss, global
-.hidden gap_10_805DD64D_sbss
 	.skip 0x3
-.endobj gap_10_805DD64D_sbss
 
 # .sbss:0x130 | 0x805DD650 | size: 0x8
 .obj lbl_805DD650, global
@@ -311,12 +301,7 @@
 .obj lbl_805DD668, global
 	.skip 0x1
 .endobj lbl_805DD668
-
-# .sbss:0x149 | 0x805DD669 | size: 0x3
-.obj gap_10_805DD669_sbss, global
-.hidden gap_10_805DD669_sbss
 	.skip 0x3
-.endobj gap_10_805DD669_sbss
 
 # .sbss:0x14C | 0x805DD66C | size: 0x4
 .obj lbl_805DD66C, global
@@ -492,12 +477,7 @@
 .obj lbl_805DD708, global
 	.skip 0x2
 .endobj lbl_805DD708
-
-# .sbss:0x1EA | 0x805DD70A | size: 0x2
-.obj gap_10_805DD70A_sbss, global
-.hidden gap_10_805DD70A_sbss
 	.skip 0x2
-.endobj gap_10_805DD70A_sbss
 
 # .sbss:0x1EC | 0x805DD70C | size: 0x4
 .obj lbl_805DD70C, global
@@ -1973,12 +1953,7 @@
 .obj lbl_805DDC1C, global
 	.skip 0x1
 .endobj lbl_805DDC1C
-
-# .sbss:0x6FD | 0x805DDC1D | size: 0x3
-.obj gap_10_805DDC1D_sbss, global
-.hidden gap_10_805DDC1D_sbss
 	.skip 0x3
-.endobj gap_10_805DDC1D_sbss
 
 # .sbss:0x700 | 0x805DDC20 | size: 0x4
 .obj lbl_805DDC20, global
@@ -1999,12 +1974,7 @@
 .obj lbl_805DDC2C, global
 	.skip 0x1
 .endobj lbl_805DDC2C
-
-# .sbss:0x70D | 0x805DDC2D | size: 0x3
-.obj gap_10_805DDC2D_sbss, global
-.hidden gap_10_805DDC2D_sbss
 	.skip 0x3
-.endobj gap_10_805DDC2D_sbss
 
 # .sbss:0x710 | 0x805DDC30 | size: 0x8
 .obj lbl_805DDC30, global
@@ -2065,12 +2035,7 @@
 .obj lbl_805DDC84, global
 	.skip 0x1
 .endobj lbl_805DDC84
-
-# .sbss:0x765 | 0x805DDC85 | size: 0x3
-.obj gap_10_805DDC85_sbss, global
-.hidden gap_10_805DDC85_sbss
 	.skip 0x3
-.endobj gap_10_805DDC85_sbss
 
 # .sbss:0x768 | 0x805DDC88 | size: 0x4
 .obj lbl_805DDC88, global
@@ -2081,12 +2046,7 @@
 .obj lbl_805DDC8C, global
 	.skip 0x1
 .endobj lbl_805DDC8C
-
-# .sbss:0x76D | 0x805DDC8D | size: 0x3
-.obj gap_10_805DDC8D_sbss, global
-.hidden gap_10_805DDC8D_sbss
 	.skip 0x3
-.endobj gap_10_805DDC8D_sbss
 
 # .sbss:0x770 | 0x805DDC90 | size: 0x8
 .obj lbl_805DDC90, global
@@ -2122,12 +2082,7 @@
 .obj __global_destructor_chain, global
 	.skip 0x4
 .endobj __global_destructor_chain
-
-# .sbss:0x7A4 | 0x805DDCC4 | size: 0x4
-.obj gap_10_805DDCC4_sbss, global
-.hidden gap_10_805DDCC4_sbss
 	.skip 0x4
-.endobj gap_10_805DDCC4_sbss
 
 # .sbss:0x7A8 | 0x805DDCC8 | size: 0x4
 .obj __aborting, global
@@ -2163,12 +2118,7 @@
 .obj lbl_805DDCE8, global
 	.skip 0x4
 .endobj lbl_805DDCE8
-
-# .sbss:0x7CC | 0x805DDCEC | size: 0x4
-.obj gap_10_805DDCEC_sbss, global
-.hidden gap_10_805DDCEC_sbss
 	.skip 0x4
-.endobj gap_10_805DDCEC_sbss
 
 # .sbss:0x7D0 | 0x805DDCF0 | size: 0x8
 .obj lbl_805DDCF0, global
@@ -2184,12 +2134,7 @@
 .obj gTRKInputPendingPtr, global
 	.skip 0x4
 .endobj gTRKInputPendingPtr
-
-# .sbss:0x7E4 | 0x805DDD04 | size: 0x4
-.obj gap_10_805DDD04_sbss, global
-.hidden gap_10_805DDD04_sbss
 	.skip 0x4
-.endobj gap_10_805DDD04_sbss
 
 # .sbss:0x7E8 | 0x805DDD08 | size: 0x8
 .obj lbl_805DDD08, global
@@ -2295,12 +2240,7 @@
 .obj WorkAroundSeekLocation_805DDD68, global
 	.skip 0x4
 .endobj WorkAroundSeekLocation_805DDD68
-
-# .sbss:0x84C | 0x805DDD6C | size: 0x4
-.obj gap_10_805DDD6C_sbss, global
-.hidden gap_10_805DDD6C_sbss
 	.skip 0x4
-.endobj gap_10_805DDD6C_sbss
 
 # .sbss:0x850 | 0x805DDD70 | size: 0x4
 .obj lbl_805DDD70, global
@@ -2476,12 +2416,7 @@
 .obj idTmp_805DDE00, global
 	.skip 0x4
 .endobj idTmp_805DDE00
-
-# .sbss:0x8E4 | 0x805DDE04 | size: 0x4
-.obj gap_10_805DDE04_sbss, global
-.hidden gap_10_805DDE04_sbss
 	.skip 0x4
-.endobj gap_10_805DDE04_sbss
 
 # .sbss:0x8E8 | 0x805DDE08 | size: 0x4
 .obj __piReg, global
@@ -2547,12 +2482,7 @@
 .obj lbl_805DDE3C, global
 	.skip 0x1
 .endobj lbl_805DDE3C
-
-# .sbss:0x91D | 0x805DDE3D | size: 0x3
-.obj gap_10_805DDE3D_sbss, global
-.hidden gap_10_805DDE3D_sbss
 	.skip 0x3
-.endobj gap_10_805DDE3D_sbss
 
 # .sbss:0x920 | 0x805DDE40 | size: 0x4
 .obj lbl_805DDE40, global
@@ -2583,12 +2513,7 @@
 .obj lbl_805DDE58, global
 	.skip 0x1
 .endobj lbl_805DDE58
-
-# .sbss:0x939 | 0x805DDE59 | size: 0x3
-.obj gap_10_805DDE59_sbss, global
-.hidden gap_10_805DDE59_sbss
 	.skip 0x3
-.endobj gap_10_805DDE59_sbss
 
 # .sbss:0x93C | 0x805DDE5C | size: 0xC
 .obj lbl_805DDE5C, global
