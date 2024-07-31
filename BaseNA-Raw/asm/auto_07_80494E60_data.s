@@ -3915,59 +3915,59 @@
 .endobj LBL_String_2d_light_ura_hps
 
 # .data:0x3474 | 0x804982D4 | size: 0x14
-.obj lbl_804982D4, global
+.obj LBL_String_2d_machine_hps, global
 	.4byte 0x6A702F32
 	.4byte 0x645F6D61
 	.4byte 0x6368696E
 	.4byte 0x652E6870
 	.4byte 0x73000000
-.endobj lbl_804982D4
+.endobj LBL_String_2d_machine_hps
 
 # .data:0x3488 | 0x804982E8 | size: 0x18
-.obj lbl_804982E8, global
+.obj LBL_String_2d_machine_ura_hps, global
 	.4byte 0x6A702F32
 	.4byte 0x645F6D61
 	.4byte 0x6368696E
 	.4byte 0x655F7572
 	.4byte 0x612E6870
 	.4byte 0x73000000
-.endobj lbl_804982E8
+.endobj LBL_String_2d_machine_ura_hps
 
 # .data:0x34A0 | 0x80498300 | size: 0x14
-.obj lbl_80498300, global
+.obj LBL_String_2d_plants_hps, global
 	.4byte 0x6A702F32
 	.4byte 0x645F706C
 	.4byte 0x616E7473
 	.4byte 0x2E687073
 	.4byte 0x00000000
-.endobj lbl_80498300
+.endobj LBL_String_2d_plants_hps
 
 # .data:0x34B4 | 0x80498314 | size: 0x18
-.obj lbl_80498314, global
+.obj LBL_String_2d_plants_ura_hps, global
 	.4byte 0x6A702F32
 	.4byte 0x645F706C
 	.4byte 0x616E7473
 	.4byte 0x5F757261
 	.4byte 0x2E687073
 	.4byte 0x00000000
-.endobj lbl_80498314
+.endobj LBL_String_2d_plants_ura_hps
 
 # .data:0x34CC | 0x8049832C | size: 0x10
-.obj lbl_8049832C, global
+.obj LBL_String_2d_sky_hps, global
 	.4byte 0x6A702F32
 	.4byte 0x645F736B
 	.4byte 0x792E6870
 	.4byte 0x73000000
-.endobj lbl_8049832C
+.endobj LBL_String_2d_sky_hps
 
 # .data:0x34DC | 0x8049833C | size: 0x14
-.obj lbl_8049833C, global
+.obj LBL_String_2d_sky_ura_hps, global
 	.4byte 0x6A702F32
 	.4byte 0x645F736B
 	.4byte 0x795F7572
 	.4byte 0x612E6870
 	.4byte 0x73000000
-.endobj lbl_8049833C
+.endobj LBL_String_2d_sky_ura_hps
 
 # .data:0x34F0 | 0x80498350 | size: 0x10
 .obj LBL_String_2d_water_hps, global
@@ -4419,27 +4419,27 @@
 	.4byte 0x00000001
 	.4byte 0x0000000A
 	.4byte 0x00000001
-	.4byte lbl_804982D4
+	.4byte LBL_String_2d_machine_hps
 	.4byte 0x00000001
 	.4byte 0x0000000B
 	.4byte 0x00000001
-	.4byte lbl_804982E8
+	.4byte LBL_String_2d_machine_ura_hps
 	.4byte 0x00000001
 	.4byte 0x0000000C
 	.4byte 0x00000001
-	.4byte lbl_80498300
+	.4byte LBL_String_2d_plants_hps
 	.4byte 0x00000001
 	.4byte 0x0000000D
 	.4byte 0x00000001
-	.4byte lbl_80498314
+	.4byte LBL_String_2d_plants_ura_hps
 	.4byte 0x00000001
 	.4byte 0x0000000E
 	.4byte 0x00000001
-	.4byte lbl_8049832C
+	.4byte LBL_String_2d_sky_hps
 	.4byte 0x00000001
 	.4byte 0x0000000F
 	.4byte 0x00000001
-	.4byte lbl_8049833C
+	.4byte LBL_String_2d_sky_ura_hps
 	.4byte 0x00000001
 	.4byte 0x00000010
 	.4byte 0x00000001
