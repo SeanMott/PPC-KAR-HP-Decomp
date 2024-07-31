@@ -3806,7 +3806,7 @@
 .endobj lbl_80498140
 
 # .data:0x3328 | 0x80498188 | size: 0x1C
-.obj lbl_80498188, global
+.obj LBL_HSD_ArchiveParse_error_str?, global
 	.4byte 0x4853445F
 	.4byte 0x41726368
 	.4byte 0x69766550
@@ -3814,17 +3814,17 @@
 	.4byte 0x20657272
 	.4byte 0x6F72210A
 	.4byte 0x00000000
-.endobj lbl_80498188
+.endobj LBL_HSD_ArchiveParse_error_str?
 
 # .data:0x3344 | 0x804981A4 | size: 0xC
-.obj lbl_804981A4, global
+.obj LBL_String_lbarchive_c, global
 	.string "lbarchive.c"
-.endobj lbl_804981A4
+.endobj LBL_String_lbarchive_c
 
 # .data:0x3350 | 0x804981B0 | size: 0x18
-.obj lbl_804981B0, global
+.obj LBL_String_canNotFindSymbol_FormatStr, global
 	.string "Cannot find symbol %s.\n"
-.endobj lbl_804981B0
+.endobj LBL_String_canNotFindSymbol_FormatStr
 
 # .data:0x3368 | 0x804981C8 | size: 0x70
 .obj lbl_804981C8, global
@@ -3866,9 +3866,9 @@
 .endobj lbl_80498238
 
 # .data:0x33E4 | 0x80498244 | size: 0xC
-.obj lbl_80498244, global
+.obj LBL_String_JPMenu_HPS, global
 	.string "jp/menu.hps"
-.endobj lbl_80498244
+.endobj LBL_String_JPMenu_HPS
 
 # .data:0x33F0 | 0x80498250 | size: 0x14
 .obj lbl_80498250, global
@@ -3890,29 +3890,29 @@
 .endobj lbl_80498264
 
 # .data:0x341C | 0x8049827C | size: 0x10
-.obj lbl_8049827C, global
+.obj LBL_String_2d_kazan_hps, global
 	.string "jp/2d_kazan.hps"
-.endobj lbl_8049827C
+.endobj LBL_String_2d_kazan_hps
 
 # .data:0x342C | 0x8049828C | size: 0x14
-.obj lbl_8049828C, global
+.obj LBL_String_2d_kazan_ura_hps, global
 	.string "jp/2d_kazan_ura.hps"
-.endobj lbl_8049828C
+.endobj LBL_String_2d_kazan_ura_hps
 
 # .data:0x3440 | 0x804982A0 | size: 0x10
-.obj lbl_804982A0, global
+.obj LBL_String_2d_kekka_hps, global
 	.string "jp/2d_kekka.hps"
-.endobj lbl_804982A0
+.endobj LBL_String_2d_kekka_hps
 
 # .data:0x3450 | 0x804982B0 | size: 0x10
-.obj lbl_804982B0, global
+.obj LBL_String_2d_light_hps, global
 	.string "jp/2d_light.hps"
-.endobj lbl_804982B0
+.endobj LBL_String_2d_light_hps
 
 # .data:0x3460 | 0x804982C0 | size: 0x14
-.obj lbl_804982C0, global
+.obj LBL_String_2d_light_ura_hps, global
 	.string "jp/2d_light_ura.hps"
-.endobj lbl_804982C0
+.endobj LBL_String_2d_light_ura_hps
 
 # .data:0x3474 | 0x804982D4 | size: 0x14
 .obj lbl_804982D4, global
@@ -3970,24 +3970,24 @@
 .endobj lbl_8049833C
 
 # .data:0x34F0 | 0x80498350 | size: 0x10
-.obj lbl_80498350, global
+.obj LBL_String_2d_water_hps, global
 	.string "jp/2d_water.hps"
-.endobj lbl_80498350
+.endobj LBL_String_2d_water_hps
 
 # .data:0x3500 | 0x80498360 | size: 0x14
-.obj lbl_80498360, global
+.obj LBL_String_2d_water_ura_hps, global
 	.string "jp/2d_water_ura.hps"
-.endobj lbl_80498360
+.endobj LBL_String_2d_water_ura_hps
 
 # .data:0x3514 | 0x80498374 | size: 0x10
-.obj lbl_80498374, global
+.obj LBL_String_3d_check_hps, global
 	.string "jp/3d_check.hps"
-.endobj lbl_80498374
+.endobj LBL_String_3d_check_hps
 
 # .data:0x3524 | 0x80498384 | size: 0x14
-.obj lbl_80498384, global
+.obj LBL_String_3d_check_ura_hps, global
 	.string "jp/3d_check_ura.hps"
-.endobj lbl_80498384
+.endobj LBL_String_3d_check_ura_hps
 
 # .data:0x3538 | 0x80498398 | size: 0x14
 .obj lbl_80498398, global
@@ -4026,19 +4026,19 @@
 .endobj lbl_804983D4
 
 # .data:0x3588 | 0x804983E8 | size: 0x10
-.obj lbl_804983E8, global
+.obj LBL_String_3d_kazan_hps, global
 	.string "jp/3d_kazan.hps"
-.endobj lbl_804983E8
+.endobj LBL_String_3d_kazan_hps
 
 # .data:0x3598 | 0x804983F8 | size: 0x14
-.obj lbl_804983F8, global
+.obj LBL_String_kazan_ura_hps, global
 	.string "jp/3d_kazan_ura.hps"
-.endobj lbl_804983F8
+.endobj LBL_String_kazan_ura_hps
 
 # .data:0x35AC | 0x8049840C | size: 0x10
-.obj lbl_8049840C, global
+.obj LBL_String_kekka_hps, global
 	.string "jp/3d_kekka.hps"
-.endobj lbl_8049840C
+.endobj LBL_String_kekka_hps
 
 # .data:0x35BC | 0x8049841C | size: 0x14
 .obj lbl_8049841C, global
@@ -4096,14 +4096,14 @@
 .endobj lbl_80498484
 
 # .data:0x3638 | 0x80498498 | size: 0x10
-.obj lbl_80498498, global
+.obj LBL_String_3d_space_hps, global
 	.string "jp/3d_space.hps"
-.endobj lbl_80498498
+.endobj LBL_String_3d_space_hps
 
 # .data:0x3648 | 0x804984A8 | size: 0x14
-.obj lbl_804984A8, global
+.obj LBL_String_3d_space_ura_hps, global
 	.string "jp/3d_space_ura.hps"
-.endobj lbl_804984A8
+.endobj LBL_String_3d_space_ura_hps
 
 # .data:0x365C | 0x804984BC | size: 0x14
 .obj lbl_804984BC, global
@@ -4125,14 +4125,14 @@
 .endobj lbl_804984D0
 
 # .data:0x3688 | 0x804984E8 | size: 0x14
-.obj lbl_804984E8, global
+.obj LBL_String_stadium_intro_hps, global
 	.string "jp/stadiumintro.hps"
-.endobj lbl_804984E8
+.endobj LBL_String_stadium_intro_hps
 
 # .data:0x369C | 0x804984FC | size: 0xC
-.obj lbl_804984FC, global
+.obj LBL_String_city_hps, global
 	.string "jp/city.hps"
-.endobj lbl_804984FC
+.endobj LBL_String_city_hps
 
 # .data:0x36A8 | 0x80498508 | size: 0x14
 .obj lbl_80498508, global
@@ -4144,14 +4144,14 @@
 .endobj lbl_80498508
 
 # .data:0x36BC | 0x8049851C | size: 0x10
-.obj lbl_8049851C, global
+.obj LBL_String_city_ura_hps, global
 	.string "jp/city_ura.hps"
-.endobj lbl_8049851C
+.endobj LBL_String_city_ura_hps
 
 # .data:0x36CC | 0x8049852C | size: 0x14
-.obj lbl_8049852C, global
+.obj LBL_String_clear_checker_hps, global
 	.string "jp/clearchecker.hps"
-.endobj lbl_8049852C
+.endobj LBL_String_clear_checker_hps
 
 # .data:0x36E0 | 0x80498540 | size: 0x10
 .obj lbl_80498540, global
@@ -4270,19 +4270,19 @@
 .endobj lbl_80498634
 
 # .data:0x37F0 | 0x80498650 | size: 0x14
-.obj lbl_80498650, global
+.obj LBL_String_event_toudai_hps, global
 	.string "jp/event_toudai.hps"
-.endobj lbl_80498650
+.endobj LBL_String_event_toudai_hps
 
 # .data:0x3804 | 0x80498664 | size: 0x10
-.obj lbl_80498664, global
+.obj LBL_String_finish_1_hps, global
 	.string "jp/finish_1.hps"
-.endobj lbl_80498664
+.endobj LBL_String_finish_1_hps
 
 # .data:0x3814 | 0x80498674 | size: 0x10
-.obj lbl_80498674, global
+.obj LBL_String_finish_2_hps, global
 	.string "jp/finish_2.hps"
-.endobj lbl_80498674
+.endobj LBL_String_finish_2_hps
 
 # .data:0x3824 | 0x80498684 | size: 0x14
 .obj lbl_80498684, global
@@ -4387,7 +4387,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000002
 	.4byte 0x00000001
-	.4byte lbl_80498244
+	.4byte LBL_String_JPMenu_HPS
 	.4byte 0x00000001
 	.4byte 0x00000003
 	.4byte 0x00000001
@@ -4399,23 +4399,23 @@
 	.4byte 0x00000001
 	.4byte 0x00000005
 	.4byte 0x00000001
-	.4byte lbl_8049827C
+	.4byte LBL_String_2d_kazan_hps
 	.4byte 0x00000001
 	.4byte 0x00000006
 	.4byte 0x00000001
-	.4byte lbl_8049828C
+	.4byte LBL_String_2d_kazan_ura_hps
 	.4byte 0x00000001
 	.4byte 0x00000007
 	.4byte 0x00000001
-	.4byte lbl_804982A0
+	.4byte LBL_String_2d_kekka_hps
 	.4byte 0x00000001
 	.4byte 0x00000008
 	.4byte 0x00000001
-	.4byte lbl_804982B0
+	.4byte LBL_String_2d_light_hps
 	.4byte 0x00000001
 	.4byte 0x00000009
 	.4byte 0x00000001
-	.4byte lbl_804982C0
+	.4byte LBL_String_2d_light_ura_hps
 	.4byte 0x00000001
 	.4byte 0x0000000A
 	.4byte 0x00000001
@@ -4443,19 +4443,19 @@
 	.4byte 0x00000001
 	.4byte 0x00000010
 	.4byte 0x00000001
-	.4byte lbl_80498350
+	.4byte LBL_String_2d_water_hps
 	.4byte 0x00000001
 	.4byte 0x00000011
 	.4byte 0x00000001
-	.4byte lbl_80498360
+	.4byte LBL_String_2d_water_ura_hps
 	.4byte 0x00000001
 	.4byte 0x00000012
 	.4byte 0x00000001
-	.4byte lbl_80498374
+	.4byte LBL_String_3d_check_hps
 	.4byte 0x00000001
 	.4byte 0x00000013
 	.4byte 0x00000001
-	.4byte lbl_80498384
+	.4byte LBL_String_3d_check_ura_hps
 	.4byte 0x00000001
 	.4byte 0x00000014
 	.4byte 0x00000001
@@ -4475,15 +4475,15 @@
 	.4byte 0x00000001
 	.4byte 0x00000018
 	.4byte 0x00000001
-	.4byte lbl_804983E8
+	.4byte LBL_String_3d_kazan_hps
 	.4byte 0x00000001
 	.4byte 0x00000019
 	.4byte 0x00000001
-	.4byte lbl_804983F8
+	.4byte LBL_String_kazan_ura_hps
 	.4byte 0x00000001
 	.4byte 0x0000001A
 	.4byte 0x00000001
-	.4byte lbl_8049840C
+	.4byte LBL_String_kekka_hps
 	.4byte 0x00000001
 	.4byte 0x0000001B
 	.4byte 0x00000001
@@ -4511,11 +4511,11 @@
 	.4byte 0x00000001
 	.4byte 0x00000021
 	.4byte 0x00000001
-	.4byte lbl_80498498
+	.4byte LBL_String_3d_space_hps
 	.4byte 0x00000001
 	.4byte 0x00000022
 	.4byte 0x00000001
-	.4byte lbl_804984A8
+	.4byte LBL_String_3d_space_ura_hps
 	.4byte 0x00000001
 	.4byte 0x00000023
 	.4byte 0x00000001
@@ -4527,11 +4527,11 @@
 	.4byte 0x00000001
 	.4byte 0x00000025
 	.4byte 0x00000001
-	.4byte lbl_804984E8
+	.4byte LBL_String_stadium_intro_hps
 	.4byte 0x00000001
 	.4byte 0x00000026
 	.4byte 0x00000001
-	.4byte lbl_804984FC
+	.4byte LBL_String_city_hps
 	.4byte 0x00000001
 	.4byte 0x00000027
 	.4byte 0x00000001
@@ -4539,11 +4539,11 @@
 	.4byte 0x00000001
 	.4byte 0x00000028
 	.4byte 0x00000001
-	.4byte lbl_8049851C
+	.4byte LBL_String_city_ura_hps
 	.4byte 0x00000001
 	.4byte 0x00000029
 	.4byte 0x00000001
-	.4byte lbl_8049852C
+	.4byte LBL_String_clear_checker_hps
 	.4byte 0x00000001
 	.4byte 0x0000002A
 	.4byte 0x00000001
@@ -4595,15 +4595,15 @@
 	.4byte 0x00000001
 	.4byte 0x00000036
 	.4byte 0x00000001
-	.4byte lbl_80498650
+	.4byte LBL_String_event_toudai_hps
 	.4byte 0x00000001
 	.4byte 0x00000037
 	.4byte 0x00000001
-	.4byte lbl_80498664
+	.4byte LBL_String_finish_1_hps
 	.4byte 0x00000001
 	.4byte 0x00000038
 	.4byte 0x00000001
-	.4byte lbl_80498674
+	.4byte LBL_String_finish_2_hps
 	.4byte 0x00000001
 	.4byte 0x00000039
 	.4byte 0x00000001
@@ -4619,7 +4619,7 @@
 	.4byte 0x00000001
 	.4byte 0x0000003C
 	.4byte 0x00000001
-	.4byte lbl_80498244
+	.4byte LBL_String_JPMenu_HPS
 	.4byte 0x00000001
 	.4byte 0x0000003D
 	.4byte 0x00000001
@@ -4680,14 +4680,14 @@
 .endobj lbl_80498BC0
 
 # .data:0x3D70 | 0x80498BD0 | size: 0x10
-.obj lbl_80498BD0, global
+.obj LBL_String_2d_stage_ssm, global
 	.string "jp/2d_stage.ssm"
-.endobj lbl_80498BD0
+.endobj LBL_String_2d_stage_ssm
 
 # .data:0x3D80 | 0x80498BE0 | size: 0xC
-.obj lbl_80498BE0, global
+.obj LBL_String_city_ssm, global
 	.string "jp/city.ssm"
-.endobj lbl_80498BE0
+.endobj LBL_String_city_ssm
 
 # .data:0x3D8C | 0x80498BEC | size: 0x10
 .obj lbl_80498BEC, global
@@ -4698,14 +4698,14 @@
 .endobj lbl_80498BEC
 
 # .data:0x3D9C | 0x80498BFC | size: 0xC
-.obj lbl_80498BFC, global
+.obj LBL_String_main_ssm, global
 	.string "jp/main.ssm"
-.endobj lbl_80498BFC
+.endobj LBL_String_main_ssm
 
 # .data:0x3DA8 | 0x80498C08 | size: 0x10
-.obj lbl_80498C08, global
+.obj LBL_String_main_chk2_ssm, global
 	.string "jp/map_chk2.ssm"
-.endobj lbl_80498C08
+.endobj LBL_String_main_chk2_ssm
 
 # .data:0x3DB8 | 0x80498C18 | size: 0x14
 .obj lbl_80498C18, global
@@ -4726,9 +4726,9 @@
 .endobj lbl_80498C2C
 
 # .data:0x3DE0 | 0x80498C40 | size: 0x10
-.obj lbl_80498C40, global
+.obj LBL_String_heat_ssm, global
 	.string "jp/map_heat.ssm"
-.endobj lbl_80498C40
+.endobj LBL_String_heat_ssm
 
 # .data:0x3DF0 | 0x80498C50 | size: 0x10
 .obj lbl_80498C50, global
@@ -4783,9 +4783,9 @@
 .endobj lbl_80498CAC
 
 # .data:0x3E60 | 0x80498CC0 | size: 0xC
-.obj lbl_80498CC0, global
+.obj LBL_String_menu_ssm, global
 	.string "jp/menu.ssm"
-.endobj lbl_80498CC0
+.endobj LBL_String_menu_ssm
 
 # .data:0x3E6C | 0x80498CCC | size: 0x10
 .obj lbl_80498CCC, global
@@ -4796,14 +4796,14 @@
 .endobj lbl_80498CCC
 
 # .data:0x3E7C | 0x80498CDC | size: 0xC
-.obj lbl_80498CDC, global
+.obj LBL_String_star_ssm, global
 	.string "jp/star.ssm"
-.endobj lbl_80498CDC
+.endobj LBL_String_star_ssm
 
 # .data:0x3E88 | 0x80498CE8 | size: 0xC
-.obj lbl_80498CE8, global
+.obj LBL_String_zako_ssm, global
 	.string "jp/zako.ssm"
-.endobj lbl_80498CE8
+.endobj LBL_String_zako_ssm
 
 # .data:0x3E94 | 0x80498CF4 | size: 0x160
 .obj lbl_80498CF4, global
@@ -4822,11 +4822,11 @@
 	.4byte 0x00000002
 	.4byte 0x00000001
 	.4byte 0x0018BCE0
-	.4byte lbl_80498BD0
+	.4byte LBL_String_2d_stage_ssm
 	.4byte 0x00000004
 	.4byte 0x00000001
 	.4byte 0x00119D00
-	.4byte lbl_80498BE0
+	.4byte LBL_String_city_ssm
 	.4byte 0x00000005
 	.4byte 0x00000001
 	.4byte 0x00090CE0
@@ -4834,11 +4834,11 @@
 	.4byte 0x00000006
 	.4byte 0x00000001
 	.4byte 0x002FC640
-	.4byte lbl_80498BFC
+	.4byte LBL_String_main_ssm
 	.4byte 0x00000007
 	.4byte 0x00000001
 	.4byte 0x00070C80
-	.4byte lbl_80498C08
+	.4byte LBL_String_main_chk2_ssm
 	.4byte 0x00000008
 	.4byte 0x00000001
 	.4byte 0x0013DE00
@@ -4850,7 +4850,7 @@
 	.4byte 0x0000000A
 	.4byte 0x00000001
 	.4byte 0x00071EE0
-	.4byte lbl_80498C40
+	.4byte LBL_String_heat_ssm
 	.4byte 0x0000000B
 	.4byte 0x00000001
 	.4byte 0x0002C7A0
@@ -4878,7 +4878,7 @@
 	.4byte 0x00000011
 	.4byte 0x00000001
 	.4byte 0x000634A0
-	.4byte lbl_80498CC0
+	.4byte LBL_String_menu_ssm
 	.4byte 0x00000012
 	.4byte 0x00000001
 	.4byte 0x000B2AA0
@@ -4886,11 +4886,11 @@
 	.4byte 0x00000013
 	.4byte 0x00000001
 	.4byte 0x0017EAE0
-	.4byte lbl_80498CDC
+	.4byte LBL_String_star_ssm
 	.4byte 0x00000014
 	.4byte 0x00000001
 	.4byte 0x0007C7C0
-	.4byte lbl_80498CE8
+	.4byte LBL_String_zako_ssm
 	.4byte 0x00000015
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -5213,14 +5213,14 @@
 .endobj lbl_80499218
 
 # .data:0x4400 | 0x80499260 | size: 0x30
-.obj lbl_80499260, global
+.obj LBL_String_audiVirtualGroundIsFull, global
 	.string "Warning: audio virtual group is full!!(max=%d)\n"
-.endobj lbl_80499260
+.endobj LBL_String_audiVirtualGroundIsFull
 
 # .data:0x4430 | 0x80499290 | size: 0x2C
-.obj lbl_80499290, global
+.obj LBL_String_stopTrackOwner_FormatString, global
 	.string "warning: stop track owner differ. %d -> %d\n"
-.endobj lbl_80499290
+.endobj LBL_String_stopTrackOwner_FormatString
 
 # .data:0x445C | 0x804992BC | size: 0x84
 .obj lbl_804992BC, global
@@ -5623,9 +5623,9 @@
 .endobj lbl_804996C0
 
 # .data:0x493C | 0x8049979C | size: 0x18
-.obj lbl_8049979C, global
+.obj LBL_String_sysDolphinBaseLibrary, global
 	.string "sysdolphin_base_library"
-.endobj lbl_8049979C
+.endobj LBL_String_sysDolphinBaseLibrary
 
 # .data:0x4954 | 0x804997B4 | size: 0x14
 .obj lbl_804997B4, global
@@ -6219,14 +6219,14 @@
 .endobj lbl_80499EC0
 
 # .data:0x5070 | 0x80499ED0 | size: 0xC
-.obj lbl_80499ED0, global
+.obj LBL_String_RdKirby_DatFile, global
 	.string "RdKirby.dat"
-.endobj lbl_80499ED0
+.endobj LBL_String_RdKirby_DatFile
 
 # .data:0x507C | 0x80499EDC | size: 0xC
-.obj lbl_80499EDC, global
+.obj LBL_String_IfAll1c_DatFile, global
 	.string "IfAll1c.dat"
-.endobj lbl_80499EDC
+.endobj LBL_String_IfAll1c_DatFile
 
 # .data:0x5088 | 0x80499EE8 | size: 0x10
 .obj lbl_80499EE8, global
@@ -6246,14 +6246,14 @@
 .endobj lbl_80499EF8
 
 # .data:0x50AC | 0x80499F0C | size: 0x10
-.obj lbl_80499F0C, global
+.obj LBL_String_EmBroomData_DatFile, global
 	.string "EmBroomData.dat"
-.endobj lbl_80499F0C
+.endobj LBL_String_EmBroomData_DatFile
 
 # .data:0x50BC | 0x80499F1C | size: 0x10
-.obj lbl_80499F1C, global
+.obj LBL_String_EmBrontData_DatFile, global
 	.string "EmBrontData.dat"
-.endobj lbl_80499F1C
+.endobj LBL_String_EmBrontData_DatFile
 
 # .data:0x50CC | 0x80499F2C | size: 0x14
 .obj lbl_80499F2C, global
@@ -6265,14 +6265,14 @@
 .endobj lbl_80499F2C
 
 # .data:0x50E0 | 0x80499F40 | size: 0x10
-.obj lbl_80499F40, global
+.obj LBL_String_EmSwordData_DatFile, global
 	.string "EmSwordData.dat"
-.endobj lbl_80499F40
+.endobj LBL_String_EmSwordData_DatFile
 
 # .data:0x50F0 | 0x80499F50 | size: 0x10
-.obj lbl_80499F50, global
+.obj LBL_String_EmCappyData_DatFile, global
 	.string "EmCappyData.dat"
-.endobj lbl_80499F50
+.endobj LBL_String_EmCappyData_DatFile
 
 # .data:0x5100 | 0x80499F60 | size: 0x14
 .obj lbl_80499F60, global
@@ -6293,9 +6293,9 @@
 .endobj lbl_80499F74
 
 # .data:0x5128 | 0x80499F88 | size: 0x10
-.obj lbl_80499F88, global
+.obj LBL_String_EmNoddyData_DatFile, global
 	.string "EmNoddyData.dat"
-.endobj lbl_80499F88
+.endobj LBL_String_EmNoddyData_DatFile
 
 # .data:0x5138 | 0x80499F98 | size: 0x14
 .obj lbl_80499F98, global
@@ -6325,9 +6325,9 @@
 .endobj lbl_80499FC0
 
 # .data:0x5174 | 0x80499FD4 | size: 0x10
-.obj lbl_80499FD4, global
+.obj LBL_String_EmGordoData_DatFile, global
 	.string "EmGordoData.dat"
-.endobj lbl_80499FD4
+.endobj LBL_String_EmGordoData_DatFile
 
 # .data:0x5184 | 0x80499FE4 | size: 0x14
 .obj lbl_80499FE4, global
@@ -6356,9 +6356,9 @@
 .endobj lbl_8049A00C
 
 # .data:0x51BC | 0x8049A01C | size: 0x10
-.obj lbl_8049A01C, global
+.obj LBL_String_EmWalkyData_DatFile, global
 	.string "EmWalkyData.dat"
-.endobj lbl_8049A01C
+.endobj LBL_String_EmWalkyData_DatFile
 
 # .data:0x51CC | 0x8049A02C | size: 0x10
 .obj lbl_8049A02C, global
@@ -6376,9 +6376,9 @@
 .endobj lbl_8049A03C
 
 # .data:0x51E8 | 0x8049A048 | size: 0x10
-.obj lbl_8049A048, global
+.obj LBL_String_EmVCStarDevil_DatFile, global
 	.string "VcStarDevil.dat"
-.endobj lbl_8049A048
+.endobj LBL_String_EmVCStarDevil_DatFile
 
 # .data:0x51F8 | 0x8049A058 | size: 0x14
 .obj lbl_8049A058, global
@@ -6399,9 +6399,9 @@
 .endobj lbl_8049A06C
 
 # .data:0x5220 | 0x8049A080 | size: 0x10
-.obj lbl_8049A080, global
+.obj LBL_String_EmVCStarHeavy_DatFile, global
 	.string "VcStarHeavy.dat"
-.endobj lbl_8049A080
+.endobj LBL_String_EmVCStarHeavy_DatFile
 
 # .data:0x5230 | 0x8049A090 | size: 0x10
 .obj lbl_8049A090, global
@@ -6412,9 +6412,9 @@
 .endobj lbl_8049A090
 
 # .data:0x5240 | 0x8049A0A0 | size: 0x10
-.obj lbl_8049A0A0, global
+.obj LBL_String_EmVCStarLight_DatFile, global
 	.string "VcStarLight.dat"
-.endobj lbl_8049A0A0
+.endobj LBL_String_EmVCStarLight_DatFile
 
 # .data:0x5250 | 0x8049A0B0 | size: 0x14
 .obj lbl_8049A0B0, global
@@ -6435,24 +6435,24 @@
 .endobj lbl_8049A0C4
 
 # .data:0x5278 | 0x8049A0D8 | size: 0x10
-.obj lbl_8049A0D8, global
+.obj LBL_String_EmVCStarRuins_DatFile, global
 	.string "VcStarRuins.dat"
-.endobj lbl_8049A0D8
+.endobj LBL_String_EmVCStarRuins_DatFile
 
 # .data:0x5288 | 0x8049A0E8 | size: 0x10
-.obj lbl_8049A0E8, global
+.obj LBL_String_EmVCStarSlick_DatFile, global
 	.string "VcStarSlick.dat"
-.endobj lbl_8049A0E8
+.endobj LBL_String_EmVCStarSlick_DatFile
 
 # .data:0x5298 | 0x8049A0F8 | size: 0x10
-.obj lbl_8049A0F8, global
+.obj LBL_String_EmVCStarTurbo_DatFile, global
 	.string "VcStarTurbo.dat"
-.endobj lbl_8049A0F8
+.endobj LBL_String_EmVCStarTurbo_DatFile
 
 # .data:0x52A8 | 0x8049A108 | size: 0x10
-.obj lbl_8049A108, global
+.obj LBL_String_EmVCStarWagon_DatFile, global
 	.string "VcStarWagon.dat"
-.endobj lbl_8049A108
+.endobj LBL_String_EmVCStarWagon_DatFile
 
 # .data:0x52B8 | 0x8049A118 | size: 0x10
 .obj lbl_8049A118, global
@@ -6470,9 +6470,9 @@
 .endobj lbl_8049A128
 
 # .data:0x52D4 | 0x8049A134 | size: 0xC
-.obj lbl_8049A134, global
+.obj LBL_String_A2Kirby_DatFile, global
 	.string "A2Kirby.dat"
-.endobj lbl_8049A134
+.endobj LBL_String_A2Kirby_DatFile
 
 # .data:0x52E0 | 0x8049A140 | size: 0x10
 .obj lbl_8049A140, global
@@ -6536,14 +6536,14 @@
 .endobj lbl_8049A1B0
 
 # .data:0x5364 | 0x8049A1C4 | size: 0xC
-.obj lbl_8049A1C4, global
+.obj LBL_String_VcWheel_DatFile, global
 	.string "VcWheel.dat"
-.endobj lbl_8049A1C4
+.endobj LBL_String_VcWheel_DatFile
 
 # .data:0x5370 | 0x8049A1D0 | size: 0x10
-.obj lbl_8049A1D0, global
+.obj LBL_String_VcWingKirby_DatFile, global
 	.string "VcWingKirby.dat"
-.endobj lbl_8049A1D0
+.endobj LBL_String_VcWingKirby_DatFile
 
 # .data:0x5380 | 0x8049A1E0 | size: 0x14
 .obj lbl_8049A1E0, global
@@ -6627,9 +6627,9 @@
 .endobj lbl_8049A274
 
 # .data:0x5424 | 0x8049A284 | size: 0xC
-.obj lbl_8049A284, global
+.obj LBL_String_A2EfCom_DatFile, global
 	.string "A2EfCom.dat"
-.endobj lbl_8049A284
+.endobj LBL_String_A2EfCom_DatFile
 
 # .data:0x5430 | 0x8049A290 | size: 0x20
 .obj jumptable_8049A290, global
@@ -6994,9 +6994,9 @@
 .endobj lbl_8049A608
 
 # .data:0x5838 | 0x8049A698 | size: 0x18
-.obj lbl_8049A698, global
+.obj LBL_String_DiscCoverIsOpen, global
 	.string "The Disc Cover is open."
-.endobj lbl_8049A698
+.endobj LBL_String_DiscCoverIsOpen
 
 # .data:0x5850 | 0x8049A6B0 | size: 0x24
 .obj lbl_8049A6B0, global
@@ -7024,9 +7024,9 @@
 .endobj lbl_8049A6D4
 
 # .data:0x5894 | 0x8049A6F4 | size: 0x2C
-.obj lbl_8049A6F4, global
+.obj LBL_String_PleaseInsertKARDisc, global
 	.string "Please insert the Kirby Air Ride Game Disc."
-.endobj lbl_8049A6F4
+.endobj LBL_String_PleaseInsertKARDisc
 
 # .data:0x58C0 | 0x8049A720 | size: 0x24
 .obj lbl_8049A720, global
@@ -7148,9 +7148,9 @@
 .endobj lbl_8049A848
 
 # .data:0x5A0C | 0x8049A86C | size: 0x14
-.obj lbl_8049A86C, global
+.obj LBL_String_andPowerSwitches, global
 	.string "and power switches."
-.endobj lbl_8049A86C
+.endobj LBL_String_andPowerSwitches
 
 # .data:0x5A20 | 0x8049A880 | size: 0x20
 .obj lbl_8049A880, global
@@ -7244,14 +7244,14 @@
 
 # .data:0x5B08 | 0x8049A968 | size: 0x90
 .obj lbl_8049A968, global
-	.4byte lbl_8049A698
+	.4byte LBL_String_DiscCoverIsOpen
 	.4byte lbl_8049A6B0
 	.4byte lbl_8049A6D4
 	.4byte lbl_805D53B8
-	.4byte lbl_8049A6F4
+	.4byte LBL_String_PleaseInsertKARDisc
 	.4byte lbl_805D53B8
 	.4byte lbl_805D53B8
-	.4byte lbl_8049A6F4
+	.4byte LBL_String_PleaseInsertKARDisc
 	.4byte lbl_805D53B8
 	.4byte lbl_8049A720
 	.4byte lbl_8049A744
@@ -7264,7 +7264,7 @@
 	.4byte lbl_805D53B8
 	.4byte lbl_8049A830
 	.4byte lbl_8049A848
-	.4byte lbl_8049A86C
+	.4byte LBL_String_andPowerSwitches
 	.4byte lbl_8049A830
 	.4byte lbl_8049A880
 	.4byte lbl_8049A8A0
@@ -7855,14 +7855,14 @@
 .endobj lbl_8049B164
 
 # .data:0x6348 | 0x8049B1A8 | size: 0x20
-.obj lbl_8049B1A8, global
+.obj LBL_String_BuildDateAndTime, global
 	.string "DATE Aug 18 2003  TIME 16:53:51"
-.endobj lbl_8049B1A8
+.endobj LBL_String_BuildDateAndTime
 
 # .data:0x6368 | 0x8049B1C8 | size: 0xC
-.obj lbl_8049B1C8, global
+.obj LBL_String_BuildDate, global
 	.string "Aug 18 2003"
-.endobj lbl_8049B1C8
+.endobj LBL_String_BuildDate
 
 # .data:0x6374 | 0x8049B1D4 | size: 0xC
 .obj lbl_8049B1D4, global
@@ -8586,12 +8586,12 @@
 .endobj jumptable_8049BB78
 
 # .data:0x6D38 | 0x8049BB98 | size: 0x10
-.obj lbl_8049BB98, global
+.obj LBL_String_Quaternion, global
 	.float 1
 	.float 0
 	.float 0
 	.float 0
-.endobj lbl_8049BB98
+.endobj LBL_String_Quaternion
 
 # .data:0x6D48 | 0x8049BBA8 | size: 0x2B8
 .obj lbl_8049BBA8, global

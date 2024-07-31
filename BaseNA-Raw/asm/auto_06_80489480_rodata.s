@@ -202,10 +202,10 @@
 	.4byte lbl_80499EC0
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499ED0
+	.4byte LBL_String_RdKirby_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499EDC
+	.4byte LBL_String_IfAll1c_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_80499EE8
@@ -214,19 +214,19 @@
 	.4byte lbl_80499EF8
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499F0C
+	.4byte LBL_String_EmBroomData_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499F1C
+	.4byte LBL_String_EmBrontData_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_80499F2C
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499F40
+	.4byte LBL_String_EmSwordData_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499F50
+	.4byte LBL_String_EmCappyData_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_80499F60
@@ -235,7 +235,7 @@
 	.4byte lbl_80499F74
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499F88
+	.4byte LBL_String_EmNoddyData_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_80499F98
@@ -247,7 +247,7 @@
 	.4byte lbl_80499FC0
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499FD4
+	.4byte LBL_String_EmGordoData_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_80499FE4
@@ -259,7 +259,7 @@
 	.4byte lbl_8049A00C
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A01C
+	.4byte LBL_String_EmWalkyData_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_8049A02C
@@ -298,10 +298,10 @@
 	.4byte lbl_80499EC0
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499ED0
+	.4byte LBL_String_RdKirby_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_80499EDC
+	.4byte LBL_String_IfAll1c_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_80499EE8
@@ -313,7 +313,7 @@
 	.4byte lbl_8049A03C
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A048
+	.4byte LBL_String_EmVCStarDevil_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_8049A058
@@ -322,13 +322,13 @@
 	.4byte lbl_8049A06C
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A080
+	.4byte LBL_String_EmVCStarHeavy_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_8049A090
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A0A0
+	.4byte LBL_String_EmVCStarLight_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_8049A0B0
@@ -337,16 +337,16 @@
 	.4byte lbl_8049A0C4
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A0D8
+	.4byte LBL_String_EmVCStarRuins_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A0E8
+	.4byte LBL_String_EmVCStarSlick_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A0F8
+	.4byte LBL_String_EmVCStarTurbo_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
-	.4byte lbl_8049A108
+	.4byte LBL_String_EmVCStarWagon_DatFile
 	.4byte 0x00000000
 	.4byte 0x05000000
 	.4byte lbl_8049A118
@@ -355,7 +355,7 @@
 	.4byte lbl_8049A128
 	.4byte 0x00000000
 	.4byte 0x01000000
-	.4byte lbl_8049A134
+	.4byte LBL_String_A2Kirby_DatFile
 	.4byte 0x00000000
 	.4byte 0x01000000
 	.4byte lbl_8049A140
@@ -410,11 +410,11 @@
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x02020000
-	.4byte lbl_8049A1C4
+	.4byte LBL_String_VcWheel_DatFile
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x02020000
-	.4byte lbl_8049A1D0
+	.4byte LBL_String_VcWingKirby_DatFile
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x02020000
@@ -467,7 +467,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000002
 	.4byte 0x20050000
-	.4byte lbl_80499ED0
+	.4byte LBL_String_RdKirby_DatFile
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x00000002
@@ -522,7 +522,7 @@
 	.4byte 0x00000001
 	.4byte 0x00000002
 	.4byte 0x20050000
-	.4byte lbl_8049A284
+	.4byte LBL_String_A2EfCom_DatFile
 	.4byte 0x00000000
 	.4byte 0x00000001
 	.4byte 0x00000002
@@ -531,7 +531,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000002
 	.4byte 0x20010000
-	.4byte lbl_8049A134
+	.4byte LBL_String_A2Kirby_DatFile
 	.4byte 0x00000000
 	.4byte 0x00000002
 	.4byte 0x20010000
