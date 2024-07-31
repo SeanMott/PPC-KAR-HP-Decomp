@@ -1,28 +1,28 @@
 80021654 0002e0  	Global
 80023600 0002d4 	Global
-80024d04 000ad8 80024d04  4 CSS_airRide_chooseVehicleInputGrabber 	Global
-80026110 000e10 80026110  4 CSS_airRide_inputGrabberReadyScreen 	Global
-80026f20 001084 80026f20  4 CSS_airRide_inputGrabber 	Global
-80027fa4 000668 80027fa4  4 CSS_airRide_FreeRuInputGrabber 	Global
-8002860c 000148 8002860c  4 CSS_airRide_Main 	Global
-8002a3e0 000020 8002a3e0  4 goToCSS_airRide_Main 	Global
-8002a400 000230 8002a400  4 CSS_topRide_colorChanger 	Global
-8002e3c4 000e74 8002e3c4  4 CSS_stadium_getSelectableMachines 	Global
-8002f238 000350 8002f238  4 CSS_cityTrial_colorChanger 	Global
-80032d34 000e48 80032d34  4 CSS_inputGrabber 	Global
-80038d6c 0010b4 80038d6c  4 loadCSS_CityTrialMain 	Global
-80039e20 000ae4 80039e20  4 loadCSS_CityTrialStadium 	Global
-8003a904 0009bc 8003a904  4 loadCSS_CityTrialFree 	Global
-8003b2c0 0001e8 8003b2c0  4 loadCSS_CityTrial 	Global
-8003f6cc 000024 8003f6cc  4 menu_cityTrial_checkMode 	Global
-800406dc 0000b0 800406dc  4 isStadiumTrialRemain 	Global
-80040b80 0001d8 80040b80  4 vsDedede_CPU_Cheating 	Global
-80040e7c 00077c 80040e7c  4 pauseMain 	Global
-80045a44 000028 80045a44  4 glxSwapWaitDrawDone(void) 	Global
-80045a8c 000168 80045a8c  4 setGameTempo? 	Global
-80045bf4 0000b0 80045bf4  4 setStadiumSetting 	Global
-8004640c 000024 8004640c  4 aramGetFirstUserAddress 	Global
-800476b8 0000f4 800476b8  4 bootMenu 	Global
+80024d04 000ad8 80024d04  4  	Global
+80026110 000e10 80026110  4  	Global
+80026f20 001084 80026f20  4  	Global
+80027fa4 000668   4  	Global
+8002860c 000148   4  	Global
+8002a3e0 000020   4  	Global
+8002a400 000230 8002a400  4  	Global
+8002e3c4 000e74   4  	Global
+8002f238 000350   4  	Global
+80032d34 000e48   4  	Global
+80038d6c 0010b4   4  	Global
+80039e20 000ae4   4  	Global
+8003a904 0009bc   4  	Global
+8003b2c0 0001e8   4  	Global
+8003f6cc 000024   4  	Global
+800406dc 0000b0   4  	Global
+80040b80 0001d8   4  	Global
+80040e7c 00077c   4  	Global
+80045a44 000028   4  	Global
+80045a8c 000168   4  	Global
+80045bf4 0000b0   4  	Global
+8004640c 000024   4  	Global
+800476b8 0000f4   4 bootMenu 	Global
 8004877c 000030 8004877c  4 assert_gmdialoguesub 	Global
 80052c40 000018 80052c40  4 HSD_DObjGetMObj 	Global
 80052c40 000018 80052c40  4 HSD_FogAdjGetFlags 	Global
