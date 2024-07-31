@@ -16316,7 +16316,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800AFDF8
+	.4byte menu_loadLANMenu
 	.4byte lbl_804A1D88
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -16438,7 +16438,7 @@
 	.4byte fn_800AFF14
 	.4byte 0x00000001
 	.4byte fn_800C28C0
-	.4byte fn_800C04B0
+	.4byte cameraControl
 	.4byte fn_800C05AC
 	.4byte fn_800C24E8
 	.4byte fn_800C2BF0
@@ -16483,7 +16483,7 @@
 	.4byte fn_800CA16C
 	.4byte fn_800CAEE0
 	.4byte fn_800CB180
-	.4byte fn_800CB360
+	.4byte AsyncImage::FreeLoadBuffer(void)
 	.4byte 0x00000001
 	.4byte fn_800CD4D4
 	.4byte fn_800CC20C

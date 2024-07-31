@@ -1,11 +1,3 @@
-800afdf8 000038 800afdf8  4 menu_loadLANMenu 	Global
-800b67cc 0001e8 800b67cc  4 cameraControlThink 	Global
-800bc054 000128 800bc054  4 pauseZoomIntoPlayers 	Global
-800bc17c 0000e0 800bc17c  4 pauseMain_unfreezeCamera 	Global
-800bc3e0 000050 800bc3e0  4 cmLoadCommon 	Global
-800c04b0 0000fc 800c04b0  4 cameraControl 	Global
-800cb360 000040 800cb360  4 AsyncImage::FreeLoadBuffer(void) 	Global
-
 800ce270 0002c8 800ce270  4 grInitObject 	Global
 800ce270 0002c8 800ce270  4 grLoadStage 	Global
 800ce754 00004c 800ce754  4 grLoadCommon 	Global
