@@ -20806,10 +20806,10 @@
 
 # .data:0x107A4 | 0x804A5604 | size: 0x14
 .obj lbl_804A5604, global
-	.4byte fn_800EE270
-	.4byte fn_800EE328
-	.4byte fn_800EE4C0
-	.4byte fn_800EE50C
+	.4byte checkEventTimer
+	.4byte eventActive?
+	.4byte whileEventActive?
+	.4byte setEventTimerMidGame
 	.4byte 0x00000000
 .endobj lbl_804A5604
 
