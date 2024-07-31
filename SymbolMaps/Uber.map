@@ -2281,7 +2281,6 @@
   8045c5a8 0001a0 8045c5a8  4 memcard_PullMemcardData? 	Global
   8045c748 00008c 8045c748  4 debug_memCard_reqLoad 	Global
   8045c964 00000c 8045c964  4 FEAudio::ResetRandomVoiceToggleSFX(void) 	Global
-  8045d684 000020 8045d684  4 cPlayer::PostPhysicsUpdate(void) 	Global
   8045d6f4 00015c 8045d6f4  4 HVQM4BufvCreate 	Global
   8045d874 00006c 8045d874  4 HVQM4BufvSetFree 	Global
   8045d8e0 0000d4 8045d8e0  4 HVQM4BufvGetFree 	Global
@@ -2569,7 +2568,6 @@
   8048841c 000010 8048841c  4 THPSimpleGetCurrentFrame 	Global
   804892d0 000028 804892d0  4 TRKNubWelcome 	Global
   804893d8 000020 804893d8  4 PostPhysicsUpdate(void) 	cPlayer
-  804893d8 000020 804893d8  4 cPlayer::PostPhysicsUpdate(void) 	Global
   80489440 000004 80489440  4 __init_cpp_exceptions 	Global
   80489448 000004 80489448  4 fp_FUN_8038814c 	Global
   80489460 000004 80489460  4 fp_FUN_803ad168 	Global
@@ -48765,7 +48763,6 @@
 8045d63c 00000008 8045d63c 0 zz_8045d63c_
 8045d644 00000020 8045d644 0 zz_8045d644_
 8045d664 00000020 8045d664 0 zz_8045d664_
-8045d684 00000020 8045d684 0 cPlayer::PostPhysicsUpdate(void)
 8045d6a4 00000028 8045d6a4 0 zz_8045d6a4_
 8045d6cc 00000028 8045d6cc 0 zz_8045d6cc_
 8045d6f4 0000015c 8045d6f4 0 zz_8045d6f4_
@@ -49304,7 +49301,7 @@
 80489270 00000060 80489270 0 zz_80489270_
 804892d0 00000028 804892d0 0 TRKNubWelcome
 804892f8 000000e0 804892f8 0 zz_804892f8_
-804893d8 00000020 804893d8 0 cPlayer::PostPhysicsUpdate(void)
+804893d8 00000020  0 
 804893f8 0000002c 804893f8 0 zz_804893f8_
 
 .data section layout

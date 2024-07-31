@@ -25766,7 +25766,7 @@
 
 # .sdata:0x80EC | 0x805DD1CC | size: 0x4
 .obj lbl_805DD1CC, global
-	.4byte fn_8045D684
+	.4byte cPlayer::PostPhysicsUpdate(void)
 .endobj lbl_805DD1CC
 
 # .sdata:0x80F0 | 0x805DD1D0 | size: 0x4
