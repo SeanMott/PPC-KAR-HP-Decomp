@@ -1,38 +1,3 @@
-80078cf0 000034 80078cf0  4 waitV 	Global
-80078f98 000084 80078f98  4 lbLoadMcGame 	Global
-800793ac 00000c 800793ac  4 systemCallbackFunc(MCCSysEvent) 	Global
-8007ade8 00049c 8007ade8  4 shadowRendering 	Global
-8007b284 000140 8007b284  4 makeShadow 	Global
-8007b770 000020 8007b770  4 initBroadbandInfo 	Global
-8007cf78 0000d8 8007cf78  4 dbLoadCommon 	Global
-8008115c 000070 8008115c  4 debug_mainSpawnStar 	Global
-80081208 000024 80081208  4 Draw 	cWindowEx
-80081208 000024 80081208  4 Draw__9cWindowExFv 	Global
-8008134c 0002b4 8008134c  4 debug_SpawnItems 	Global
-800a3754 00035c 800a3754  4 debug_Race3D_loadLocations 	Global
-800ab2d4 0001ec 800ab2d4  4 debugInitMenu 	Global
-800ab50c 000028 800ab50c  4 debugPutSpace 	Global
-800ab78c 000228 800ab78c  4 dbPutString 	Global
-800ab78c 000228 800ab78c  4 debugPutString 	Global
-800ac500 0003cc 800ac500  4 debug_mainMenuThink 	Global
-800aca04 000404 800aca04  4 debug_openSubMenu 	Global
-800ad244 000034 800ad244  4 debug_subMenu_InBetween1 	Global
-800ad97c 000078 800ad97c  4 debug_openRace3DMode 	Global
-800ad9f4 00003c 800ad9f4  4 debug_openRace2DMode 	Global
-800ada30 000064 800ada30  4 debug_openOptionMode 	Global
-800ada94 000064 800ada94  4 debug_openClearCheck 	Global
-800adb24 00006c 800adb24  4 debug_openSoundTest 	Global
-800adb90 000064 800adb90  4 debug_openRumbleTest 	Global
-800adbf4 000064 800adbf4  4 debug_openMovieTest 	Global
-800adc58 000064 800adc58  4 debug_openMemcardTest 	Global
-800adcbc 000064 800adcbc  4 debug_openEndingTest 	Global
-800add20 000064 800add20  4 debug_openLANEmulate 	Global
-800add84 000064 800add84  4 debug_openLANMenuTest 	Global
-800adde8 000064 800adde8  4 debug_openSyncTest 	Global
-800af594 000030 800af594  4 debug_movieTestinBetween 	Global
-800af77c 000030 800af77c  4 debug_common? 	Global
-800af898 0000b4 800af898  4 debug_memCard_think? 	Global
-800afa00 0000b4 800afa00  4 debug_memCard_something? 	Global
 800afdf8 000038 800afdf8  4 menu_loadLANMenu 	Global
 800b67cc 0001e8 800b67cc  4 cameraControlThink 	Global
 800bc054 000128 800bc054  4 pauseZoomIntoPlayers 	Global
@@ -40,6 +5,7 @@
 800bc3e0 000050 800bc3e0  4 cmLoadCommon 	Global
 800c04b0 0000fc 800c04b0  4 cameraControl 	Global
 800cb360 000040 800cb360  4 AsyncImage::FreeLoadBuffer(void) 	Global
+
 800ce270 0002c8 800ce270  4 grInitObject 	Global
 800ce270 0002c8 800ce270  4 grLoadStage 	Global
 800ce754 00004c 800ce754  4 grLoadCommon 	Global
@@ -69,6 +35,7 @@
 800d1090 00004c 800d1090  4 grGetItemposNum 	Global
 800d10dc 0000f8 800d10dc  4 loadItemLocations? 	Global
 800d11d4 000028 800d11d4  4 grGetEventposNum 	Global
+
 800d11fc 0000f4 800d11fc  4 loadEventLocations? 	Global
 800d12f0 00004c 800d12f0  4 grGetVehicleposNum 	Global
 800d133c 0000f8 800d133c  4 loadVehicleLocations? 	Global
@@ -88,6 +55,7 @@
 800d546c 000024 800d546c  4 SidelineExplodableManager::GetNumExplodables(void) 	Global
 800d5ed4 000048 800d5ed4  4 grSetupLight 	Global
 800d5fd0 0000c4 800d5fd0  4 grSetupLightSomething? 	Global
+
 800d7b8c 0001e4 800d7b8c  4 destroyBigStar 	Global
 800da3d4 000050 800da3d4  4 grGetStartposP 	Global
 800da424 000050 800da424  4 grGetEnemyposP 	Global
@@ -103,6 +71,7 @@
 800de0e8 0000c0 800de0e8  4 grSetupStaticCollKdtree 	Global
 800de1a8 000080 800de1a8  4 grFreeStaticCollKdtree 	Global
 800de714 000034 800de714  4 grSetupSpline 	Global
+
 800df49c 000014 800df49c  4 cAnimInventory::GetEndPhase(int) 	Global
 800df4b0 000010 800df4b0  4 cAnimInventory::GetAnim(int) 	Global
 800df4c0 000018 800df4c0  4 GetChild 	cSHierarchy
@@ -117,6 +86,7 @@
 800e5438 000028 800e5438  4 grGetLocalDeadPosNum 	Global
 800e5460 0000f8 800e5460  4 loadLocalDeadLocations? 	Global
 800e8000 000338 800e8000  4 grConveyerMovement 	Global
+
 800e8000 000338 800e8000  4 grConveyorMovement 	Global
 800e86dc 0001ac 800e86dc  4 grSwitchLogic 	Global
 800e9acc 0002d4 800e9acc  4 grSetupGroundFgm 	Global
@@ -135,6 +105,7 @@
 800ee984 0000d8 800ee984  4 grSetupGlobalDead 	Global
 800f25b4 000080 800f25b4  4 parse_Stage.dat 	Global
 800f3f9c 0002c0 800f3f9c  4 grSetupYakuCommon_Random_Set 	Global
+
 800f425c 000140 800f425c  4 grSetupYakuCommon 	Global
 800f440c 000024 800f440c  4 grLoadYakumono 	Global
 800f5004 0000d4 800f5004  4 collideWithObject 	Global
@@ -148,6 +119,7 @@
 80106bd0 000084 80106bd0  4 hitBreakableFloor 	Global
 80107914 0002e8 80107914  4 hitWeakObject 	Global
 801086d0 000618 801086d0  4 hitStrongObject 	Global
+
 801097ac 00000c 801097ac  4 GetAnimController 	DrawableCharacter
 801097ac 00000c 801097ac  4 DrawableCharacter::GetAnimController( 	Global
 8010a998 0000cc 8010a998  4 spawnSecretChamberItems 	Global

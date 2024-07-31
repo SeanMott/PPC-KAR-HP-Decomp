@@ -13126,7 +13126,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800AD97C
+	.4byte debug_openRace3DMode
 	.4byte lbl_8049F548
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -13134,7 +13134,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800AD9F4
+	.4byte debug_openRace2DMode
 	.4byte lbl_8049F558
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -13142,7 +13142,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800ADA30
+	.4byte debug_openOptionMode
 	.4byte lbl_8049F568
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -13150,7 +13150,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800ADA94
+	.4byte debug_openClearCheck
 	.4byte lbl_8049F578
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -13158,7 +13158,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800ADB24
+	.4byte debug_openSoundTest
 	.4byte lbl_8049F588
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -13166,7 +13166,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800ADB90
+	.4byte debug_openRumbleTest
 	.4byte lbl_8049F598
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -13174,7 +13174,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800ADBF4
+	.4byte debug_openMovieTest
 	.4byte lbl_8049F5A8
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -13182,7 +13182,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800ADC58
+	.4byte debug_openMemcardTest
 	.4byte lbl_8049F5B8
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -13190,7 +13190,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800ADCBC
+	.4byte debug_openEndingTest
 	.4byte lbl_8049F5C8
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -13198,7 +13198,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800ADD20
+	.4byte debug_openLANEmulate
 	.4byte lbl_8049F5D8
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -13206,7 +13206,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800ADD84
+	.4byte debug_openLANMenuTest
 	.4byte lbl_8049F5E8
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -13214,7 +13214,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800ADDE8
+	.4byte debug_openSyncTest
 	.4byte lbl_8049F5F8
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -15961,7 +15961,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800AF898
+	.4byte debug_memCard_think?
 	.4byte lbl_804A1880
 	.4byte 0x00000000
 	.4byte 0x00000000
@@ -15977,7 +15977,7 @@
 	.4byte 0x00000000
 	.4byte 0x00000000
 	.4byte 0x00000001
-	.4byte fn_800AFA00
+	.4byte debug_memCard_something?
 	.4byte lbl_804A1898
 	.4byte 0x00000000
 	.4byte 0x00000000
