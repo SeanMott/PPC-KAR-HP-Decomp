@@ -1,56 +1,3 @@
-80021654 0002e0  	Global
-80023600 0002d4 	Global
-80024d04 000ad8 80024d04  4  	Global
-80026110 000e10 80026110  4  	Global
-80026f20 001084 80026f20  4  	Global
-80027fa4 000668   4  	Global
-8002860c 000148   4  	Global
-8002a3e0 000020   4  	Global
-8002a400 000230 8002a400  4  	Global
-8002e3c4 000e74   4  	Global
-8002f238 000350   4  	Global
-80032d34 000e48   4  	Global
-80038d6c 0010b4   4  	Global
-80039e20 000ae4   4  	Global
-8003a904 0009bc   4  	Global
-8003b2c0 0001e8   4  	Global
-8003f6cc 000024   4  	Global
-800406dc 0000b0   4  	Global
-80040b80 0001d8   4  	Global
-80040e7c 00077c   4  	Global
-80045a44 000028   4  	Global
-80045a8c 000168   4  	Global
-80045bf4 0000b0   4  	Global
-8004640c 000024   4  	Global
-800476b8 0000f4   4 bootMenu 	Global
-8004877c 000030 8004877c  4 assert_gmdialoguesub 	Global
-80052c40 000018 80052c40  4 HSD_DObjGetMObj 	Global
-80052c40 000018 80052c40  4 HSD_FogAdjGetFlags 	Global
-80052c8c 000018 80052c8c  4 HSD_DObjGetNext 	Global
-80054904 00009c 80054904  4 sAObjAnimeAll 	Global
-80055a30 000078 80055a30  4 sAddAnimAll 	Global
-80055af0 000124 80055af0  4 zzTOP 	Global
-800560ac 000080 800560ac  4 HSD_TObjAddAnimAll 	Global
-8005811c 000018 8005811c  4 ARAM_Size 	Global
-80059d50 000028 80059d50  4 HasCamera 	cCameraManager
-80059d50 000028 80059d50  4 cCameraManager::HasCamera(cBaseCamera 	Global
-
-8005e1a8 0001ec 8005e1a8  4 lbLoadMusicLocation 	Global
-800614a8 0000a8 800614a8  4 frameCounter_inGame 	Global
-80061658 000038 80061658  4 playSoundFX_menuSound 	Global
-800616c8 000034 800616c8  4 CSS_playerQuit 	Global
-800616fc 000038 800616fc  4 CSS_playSoundFX 	Global
-80061734 000038 80061734  4 playSoundFX_errorNoise 	Global
-800617fc 000038 800617fc  4 playPauseSoundFX 	Global
-80061a44 000044 80061a44  4 stopSoundEffect 	Global
-80061a88 000044 80061a88  4 pauseRevertCamera 	Global
-800625cc 000094 800625cc  4 sPadAll 	Global
-80062c4c 000058 80062c4c  4 zz_006b1cd 	Global
-800640b8 0000c4 800640b8  4 isAccelerationPossible 	Global
-80066d1c 000028 80066d1c  4 InitCamera 	Global
-80068d68 00000c 80068d68  4 _HSD_StateInvalidateTexCoordGen 	Global
-80068d68 00000c 80068d68  4 sPutFontAllNn 	Global
-8006e58c 000018 8006e58c  4 IPT_fn_xGetAnalogicValue 	Global
 8006ee34 000014 8006ee34  4 GetTeamStats(int) 	Cup<8,14>
 8006ee34 000014 8006ee34  4 Cup<8,14>::GetTeamStats(int) 	Global
 8006ee48 000014 8006ee48  4 GetTeamStats(int) 	Cup<8,14>
@@ -225,6 +172,7 @@
 8010df5c 00013c 8010df5c  4 hitWhispy 	Global
 8010e538 000034 8010e538  4 pillarLogic 	Global
 8010f114 000154 8010f114  4 setSky? 	Global
+
 8010f268 000198 8010f268  4 grYakuUpdate 	Global
 8010f268 000198 8010f268  4 grYakuUpdate? 	Global
 8010f7c4 000090 8010f7c4  4 grSetupCityEventData 	Global
@@ -270,6 +218,7 @@
 80111d6c 000001 80111d6c  8 event_formation_end2 	Global
 80111d70 000190 80111d70  4 event_formation_init 	Global
 80111f00 0000b0 80111f00  4 event_lighthouse_start 	Global
+
 80111fb0 000058 80111fb0  4 event_lighthouse 	Global
 80112464 000290 80112464  4 drawHUD 	Global
 801126f4 000290 801126f4  4 removeHUD 	Global
@@ -289,6 +238,7 @@
 801285dc 00048c 801285dc  4 renderPauseHUD_renderOptions 	Global
 80132888 000020 80132888  4 Updates 	ON/OFF
 80132888 000020 80132888  4 Updates 	Global
+
 8013540c 000024 8013540c  4 CSS_initDescriptionText 	Global
 801354d4 000020 801354d4  4 CSS_updatePlayerIndicatorColorInside 	Global
 801354f4 000020 801354f4  4 CSS_updatePlayerSelectFrame 	Global
@@ -331,6 +281,7 @@
 80191a58 0000e8 80191a58  4 ground_Spin 	Global
 80191d0c 00000c 80191d0c  4 cGame::GetGameTime(void) 	Global
 80192650 000038 80192650  4 collideWithAbilityStart 	Global
+
 80192688 000024 80192688  4 firecrackerGet 	Global
 801926ac 000038 801926ac  4 givePowerUp 	Global
 80192758 00000c 80192758  4 IsLingering 	EmissionController
@@ -362,6 +313,7 @@
 801a2eb4 00003c 801a2eb4  4 getOffBike_giveUpwardMomemtum 	Global
 801a3a28 0000a4 801a3a28  4 AS_Damage2? 	Global
 801a4884 000078 801a4884  4 AS_DeadFall? 	Global
+
 801a50f0 0000a8 801a50f0  4 AS_DeadWait 	Global
 801a5250 000184 801a5250  4 AS_DeadHitGround 	Global
 801a56f0 0000c8 801a56f0  4 AS_DeadCrawl 	Global
@@ -420,6 +372,7 @@
 801aabbc 000038 801aabbc  4 AS_RaceStart? 	Global
 801aacb8 000058 801aacb8  4 AS_RaceStartGo 	Global
 801ab1a0 000074 801ab1a0  4 AS_StarWait 	Global
+
 801ab300 000070 801ab300  4 groundControl 	Global
 801ab4dc 000038 801ab4dc  4 AS_StarWave 	Global
 801ab554 000050 801ab554  4 groundLogic 	Global
@@ -471,6 +424,7 @@
 801b4908 00003c 801b4908  4 PhysicsCharacter::PreCollide(void) 	Global
 801b4a3c 000084 801b4a3c  4 ability_Tornado 	Global
 801b4d04 00005c 801b4d04  4 groundSpin2? 	Global
+
 801b5480 000104 801b5480  4 ability_Bird 	Global
 801b5660 000048 801b5660  4 abilityTimer_Bird_checkIfZero 	Global
 801b56a8 000088 801b56a8  4 abilityTimer_Bird_remove 	Global
@@ -524,6 +478,7 @@
 801c6d0c 000068 801c6d0c  4 vcLoadCommon 	Global
 801c6d74 0000c8 801c6d74  4 vcLoadVehicleArchive 	Global
 801c75f4 000014 801c75f4  4 setStickXYandChargeBool 	Global
+
 801c7c88 00000c 801c7c88  4 IsLingering( 	EmissionController
 801c7c88 00000c 801c7c88  4 EmissionController::IsLingering( 	Global
 801c81c0 000050 801c81c0  4 cityTrial_getMasterStats 	Global
@@ -565,6 +520,7 @@
 801fd348 000150 801fd348  4 emLoadEnemyData 	Global
 801fd580 0000f4 801fd580  4 emLoadCommon 	Global
 801fd6ec 000028 801fd6ec  4 dVectorScale 	Global
+
 801fd6ec 000028 801fd6ec  4 dVectorScale(float 	Global
 80200604 000034 80200604  4 SetActiveSlide 	TLComponent
 80200604 000034 80200604  4 TLComponent::SetActiveSlide(unsigned 	Global
@@ -599,6 +555,7 @@
   8024ea54 0000a0 8024ea54  4 getRandomPowerUp? 	Global
   8024eaf4 000364 8024eaf4  4 spawnItem_initData 	Global
   8024eef4 0004bc 8024eef4  4 spawnItem 	Global
+
   8024f960 0000d8 8024f960  4 checkBoxDamage 	Global
   8024feec 00004c 8024feec  4 itLoadCommon 	Global
   8024ff38 00005c 8024ff38  4 itLoadData 	Global
@@ -642,6 +599,7 @@
   80262910 000084 80262910  4 stGetStageKind_44vc? 	Global
   80262994 000084 80262994  4 stGetStageKind_48? 	Global
   80262a18 000084 80262a18  4 stGetStageKind_4c? 	Global
+
   80262a9c 000084 80262a9c  4 stGetStageKind_50? 	Global
   80262b20 000084 80262b20  4 stGetStageKind_54? 	Global
   8027a5d8 000034 8027a5d8  4 FECharacterSound::PlayCaptainSlideIn(eTeamID) 	Global
@@ -692,6 +650,7 @@
   803272c0 000340 803272c0  4 HSD_AObjLoadDesc 	Global
   8032a998 000024 8032a998  4 cFielder::UpdatePlay(float) 	Global
   8032ebb4 000014 8032ebb4  4 cFielder::ShouldILeadPass(void) 	Global
+
   803314fc 00003c 803314fc  4 AIPlay::__dt(void) 	Global
   80331558 00000c 80331558  4 GoalOverlay::SceneCreated(void) 	Global
   803462d8 00002c 803462d8  4 NSNMessengerScene::SceneCreated(void) 	Global
@@ -728,6 +687,7 @@
   8039d1e0 000030 8039d1e0  4 DemoOverlay::SceneCreated(void) 	Global
   803aca64 000024 803aca64  4 CommonDesireData::CalcBoolChance(float) 	Global
   803ad0a0 0000c8 803ad0a0  4 __va_arg 	Global
+
   803ad168 000048 803ad168  4 __destroy_global_chain 	Global
   803ad1b0 000018 803ad1b0  4 __register_global_object 	Global
   803ad248 000078 803ad248  4 __destroy_arr 	Global
