@@ -1,5 +1,5 @@
-80021654 0002e0 80021654  4 CSS_airRide_colorChanger 	Global
-80023600 0002d4 80023600  4 loadCPU 	Global
+80021654 0002e0  	Global
+80023600 0002d4 	Global
 80024d04 000ad8 80024d04  4 CSS_airRide_chooseVehicleInputGrabber 	Global
 80026110 000e10 80026110  4 CSS_airRide_inputGrabberReadyScreen 	Global
 80026f20 001084 80026f20  4 CSS_airRide_inputGrabber 	Global
