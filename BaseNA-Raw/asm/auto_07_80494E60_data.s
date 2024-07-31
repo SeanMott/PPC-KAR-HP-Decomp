@@ -12370,13 +12370,13 @@
 
 # .data:0xA108 | 0x8049EF68 | size: 0x28
 .obj lbl_8049EF68, global
-	.4byte fn_800D0DCC
-	.4byte fn_800D0DE4
+	.4byte grGetGravityposNum
+	.4byte loadGravityLocations?
 	.4byte fn_800A6C64
 	.4byte fn_800A6E44
 	.4byte fn_800A7ACC
-	.4byte fn_800D0EB8
-	.4byte fn_800D0ED0
+	.4byte grGetAirflowposNum
+	.4byte loadAirflowLocations?
 	.4byte fn_800A6D54
 	.4byte fn_800A6FE8
 	.4byte fn_800A7B94
