@@ -1,11 +1,4 @@
-800ce270 0002c8 800ce270  4 grInitObject 	Global
-800ce270 0002c8 800ce270  4 grLoadStage 	Global
-800ce754 00004c 800ce754  4 grLoadCommon 	Global
-800ce7a0 000184 800ce7a0  4 grLoadGroundArchive 	Global
-800ce7a0 000184 800ce7a0  4 grLoadStageArchive 	Global
-800ce924 000040 800ce924  4 grLoadCityEventArchive 	Global
-800cea5c 000024 800cea5c  4 grGetGroundLight_Kirby 	Global
-800cea5c 000024 800cea5c  4 grGetStageLight_Kirby? 	Global
+
 800ceab8 000014 800ceab8  4 grGetGroundMinimapScale 	Global
 800ceab8 000014 800ceab8  4 grGetStageMinimapScale 	Global
 800ceacc 000028 800ceacc  4 grGetGroundMinimapPlayerAdjust 	Global
